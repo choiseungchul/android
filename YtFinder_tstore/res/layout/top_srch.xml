@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/search_bar_bg"
+    android:padding="3dp" >
+
+    <com.mcproject.net.customview.RecyclingImageView
+        android:id="@+id/srch_detail_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/srch_detail_off" />
+
+    <com.mcproject.net.customview.CustomEditText
+        android:id="@+id/srch_query"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/input_bg"
+        android:completionThreshold="5"
+        android:gravity="center_vertical"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:singleLine="true" />
+
+</FrameLayout>

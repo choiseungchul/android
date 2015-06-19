@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Youtube Favorite</string>
+
+    <!-- 공통 -->
+    <string name="http_null_error">Network is unstable. Try again please.</string>
+    <string name="load">Wait a minute please.</string>
+    <string name="network_load">Loading of list. Please, wait a minute.</string>
+    <string name="srch_query_hint">Search word</string>
+    <string name="srch_category_info">Category</string>
+    <string name="srch_date_start">Update date.(Start date)</string>
+    <string name="srch_date_end">Update date.(Finish date)</string>
+    <string name="srch_video_time">Playing time.</string>
+    <string name="srch_nation">Search country.</string>
+    <string name="srch_event">Event</string>
+    
+    <string name="on_finish">Please, push one more time. It will be over.</string>
+    
+    <string name="duration_hour">h </string>
+    <string name="duration_minute">m </string>
+    <string name="duration_second">s </string>
+    
+    <string name="user_select_nation_title">Please, set-up your country.</string>
+    <string-array name="user_select_nation_names">
+        <item>United states</item>
+        <item>Republic of south Korea.</item>
+        <item>Japan</item>
+        <item>China</item>        
+        <item>England</item>
+        <item>Taiwan</item>
+        <item>Hongkong</item>
+    </string-array>
+    <!-- 국가 코드 -->
+    <string-array name="user_select_nation_regionCode">
+        <item>US</item>
+        <item>KR</item>
+        <item>JP</item>
+        <item>US</item><!-- 원래는 CN 이지만 데이터가 안나오므로 US -->
+        <item>UK</item>
+        <item>TW</item>
+        <item>HK</item>
+    </string-array>
+    <!-- 언어 코드 -->
+    <string-array name="user_select_nation_hlcode">
+        <item>en</item>
+        <item>ko</item>
+        <item>ja</item>
+        <item>zh-CN</item>        
+        <item>en</item>
+        <item>zh-TW</item>
+        <item>en</item>
+    </string-array>
+    
+    <string name="sort_date">Latest Ranking</string>
+    <string name="sort_rating">Evaluating Ranking</string>
+    <string name="sort_viewcnt">View Count</string>
+    <string name="sort_default">Relating Ranking</string>
+    
+    <string name="play_repeat">Replay</string>
+    
+    <!-- menu -->
+    <string name="menu_1_text">Search List</string>
+    <string name="menu_2_text">Play List</string>
+    <string name="menu_3_text">Favorite List</string>
+    <string name="menu_4_text">Settings</string>
+    
+    <string name="sort_btn_viewcount">View Count</string>
+    <string name="sort_btn_datetime">Recent date</string>
+    <string name="sort_btn_recommend">Rating</string>
+    
+    <string name="srch">Search</string>
+    <string name="srch_alert">Please, enter your search word.</string>
+    <string name="srch_loading">loading list...</string>
+    <string name="srch_empty_alert">No more of result.</string>
+    <string name="srch_sort_alert">We are only supported to search in the result.</string>
+    <string name="srch_playlist_not_support">We are not supported to search in playing list.</string> 
+    
+    <!-- 상세 검색 -->
+    <string name="srch_select_title_1">Country</string>
+    <string name="srch_select_title_1_1">Category</string>
+    <string name="srch_select_title_2">Upload period</string>
+    <string name="srch_select_title_3">Uploader</string>
+    <string name="srch_select_title_4">Playing time</string>
+    <string name="srch_select_title_5">Name</string>
+    <string name="srch_select_title_6">Alignment method</string>
+    
+    <string name="srch_select_nation_btn">Uploader country</string>
+    
+    <string name="srch_select_datepicker_title">Please, set-up period.</string>
+    <string name="srch_select_start_time">1980.01.01</string>
+    <string name="srch_select_end_time">Time</string>
+    <string name="srch_select_wheel_title1">Year</string>
+    <string name="srch_select_wheel_title2">Month</string>
+    <string name="srch_select_wheel_title3">Date</string>
+    <!-- datepicker dialog 월 --> 
+    <string-array name="datepicker_month">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string name="srch_select_datepicker_dialog_close">Apply</string>
+    
+    <string name="srch_select_cate_btn">All</string>
+    <string name="srch_select_cate_dialog_title">Select Category</string>
+    <string name="srch_select_cate_loading">Loading of category list...</string>
+    
+    <string name="srch_select_duration_title">Select video\'s running time</string>
+    <string name="srch_select_duration_default">All</string>
+    <string-array name="srch_select_duration_item">
+        <item >All</item>
+        <item>Less than 1 minute</item>
+        <item >1 to 5 minutes</item>
+        <item >5 to 10 minutes</item>
+        <item >More than 10 minutes</item>
+    </string-array>
+    
+    <string name="srch_select_start_btn">Starting search</string>
+    <string name="srch_select_input_uploader_hint">Uploader</string>
+    <string name="srch_select_duration">All</string>
+    <string name="srch_select_query">Title of video</string>
+    
+    <string name="srch_select_order_1">Date</string>
+    <string name="srch_select_order_2">Evaluation</string>
+    <string name="srch_select_order_3">Title</string>
+    <string name="srch_select_order_4">Uploader</string>
+    <string name="srch_select_order_5">ViewCount</string>
+    <string name="srch_select_order_6">Accuracy</string>
+    
+    <string name="srch_dialog_nation_title">Please, select country</string>
+    
+    <!-- 국가이름 및 국가코드 -->
+    <string-array name="srch_nation_names">
+        <item>All</item> 
+        <item>United states</item>
+        <item>Republic of south Korea</item>
+        <item>China</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Hongkong</item>
+        <item>Inida</item>
+        <item>Italia</item>
+        <item>Japan</item>
+        <item>Malaysia</item>
+        <item>Singapore</item>
+        <item>Spain</item>
+        <item>Taiwan</item>
+        <item>England</item>
+        <item>Vietnam</item>
+    </string-array>
+    
+    <string-array name="srch_nation_codes">
+        <item>ALL</item>
+        <item>US</item>
+        <item>KR</item>
+        <item>CN</item>
+        <item>FR</item>
+        <item>DE</item>
+        <item>HK</item>
+        <item>IN</item>
+        <item>IT</item>
+        <item>JP</item>
+        <item>MY</item>
+        <item>SG</item>
+        <item>ES</item>
+        <item>TW</item>
+        <item>GB</item>
+        <item>VN</item>
+    </string-array>
+    
+    <string name="srch_select_alert_date">Please, set-up uploading period again.</string>
+    <string name="srch_select_alert_query">Please, enter your search word or uploader.</string>
+    <string name="srch_select_alert_empty">It has no consequences.</string>
+    
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_cancel">Cancel</string>
+    
+    <!-- 리스트 아이템 -->
+    <string name="list_item_channel_title">Uploader : </string>
+    <string name="list_item_mv_duration">Duration : </string>
+    <string name="list_item_uploader_added">subscribed : </string>
+    
+    <!-- 즐겨찾기 -->
+    <string name="fav_dialog_video_add_title">Addition of video in favorite list</string>
+    <string name="fav_dialog_video_add_msg">Do you want to add a video in favorite list and play list?</string>
+    <string name="fav_dialog_uploader_add_title">Addition of uploader in favorite list</string>
+    <string name="fav_dialog_uploader_add_msg">Do you want to add %s in favorite list?</string>
+    <string name="fav_dialog_uploader_remove_title">Removal of uploader in favorite list</string>
+    <string name="fav_dialog_uploader_remove_msg">Do you want to remove this uploader in favorite list?</string>
+    
+    <string name="favlist_video_alreay_added">This video already registers in favorite list.</string>
+    <string name="favlist_video_removed">Removal of video in favorite list.</string>
+    <string name="favlist_video_alreay_removed">This video already removed in favorite list.</string>
+    <string name="favlist_uploader_id_alreay_added">This uploader already registers in favorite list.</string>
+    <string name="favlist_uploader_id_alreay_removed">This uploader doesn\'t register in favorite list.</string>
+    
+    
+    <!-- 즐겨찾기 액티비티 탭 --> 
+    <string name="fav_tab_1">Video</string>
+    <string name="fav_tab_2">Uploader</string>
+    <string name="fav_tab_3">Search History</string>
+    
+    <string name="keyword_delete_error">Removal of Key word failed.</string>
+    <string name="uploader_delete_success">Removal of uploader in favorite list.</string>
+    <string name="uploader_delete_failed">Removal of uploader failed.</string>
+    <string name="uploader_delete_dialog_title">Removal of uploader in favorite list</string>
+    <string name="uploader_delete_dialog_msg">Do you want to remove a uploader in favorite list?</string>
+    <string name="uploader_expendablelist_loadmore">Watching more</string>
+    
+    <!-- 플레이 리스트 -->
+    <string name="playlist_already_added">This video already has in play list.</string>
+    <string name="fav_to_playlist_add">Registration of video in play list.</string>
+    <string name="fav_to_playlist_remove">Removal of video in play list.</string>
+    <string name="playlist_play_all">All video</string>
+    <string name="playlist_delete_undo">Cancel</string>
+    <string name="playlist_delete_all">removal of all</string> 
+    <string name="playlist_back_play">play background</string> 
+    
+    <string name="playlist_dialog_remove_all_title">removal of play list</string>
+    <string name="playlist_dialog_remove_all_msg">Do you want to remove all list in play list?</string>
+    
+    <string name="playlist_empty">It has no video.</string>
+    
+    <string name="new_upload_content_added">Uploading new video.</string>
+    <string name="new_upload_content_add_desc">Detection of %s \'s new upload video.</string>
+    
+    
+    <!-- 플레이어 -->
+    <string name="mv_dn_dialog_title">Video Download</string>
+    <string name="mv_dn_dialog_msg">Do you want to download this video?</string>
+    <string name="mp3_dn_dialog_title">Video music extraction.</string>
+    <string name="mp3_dn_dialog_msg">Do you want to extract music in video?</string>
+    
+    <string name="mv_down_low_resolution_alert">If you don\'t have a lower quality video, It will download high quality video.</string>
+    
+    <string name="mv_already_download">This video already download.</string>
+    <string name="mp3_already_download">This video already music extract.</string>
+    
+    <string name="mv_download_btn">Video download</string>
+    <string name="mp3_download_btn">Music mp3 download</string>
+    <string name="mv_download_storage_error1">It has no sd card.</string>
+    <string name="mv_download_storage_error2">You can\'t register it in sd card.</string>
+    <string name="mv_download_sdk_version_low">We are supported only over the Android 2.3.</string>
+    <string name="mv_download_is_not_loaded">Loading video. Please, try againg.</string>
+    
+    <string name="mv_download_stream_url_failed">You can\'t download this video.</string>
+    <string name="stream_url_failed">Download failure</string>
+    
+    <string name="mv_download_stream_url_others_m">Searching midium quality video.</string>
+    <string name="mv_download_stream_url_others_h">Searching high quality video.</string>
+    
+    <string name="mp3_download_limited">It is over permissible amount about daily extraction of music.</string> 
+    <string name="mp3_size_too_big">You can extract of music less than 10 minute video.</string>
+    
+    <string name="player_list_dialog_title">Related video list</string>
+    <string name="player_list_dialog_list_data_no">Loading of video list.</string>
+    
+    <!-- 플레이어 버튼 -->
+    <string name="player_btn_text1">Replay</string>
+    <string name="player_btn_text2">Favorite</string>
+    <string name="player_btn_text5">Share</string>
+    <string name="player_btn_text3">Search</string>
+    <string name="player_btn_text3_2">Search</string>
+    <string name="player_btn_text4">Download</string>
+    
+    <!-- 업로더 영상 목록 -->
+    <string name="uploader_inner_search">Search</string>
+    <string name="uploader_inner_search_hint">Searching uploader video</string> 
+    
+    <!-- 더보기 -->
+    <string name="others_act_list_title1">Version informaition</string>
+    <string name="others_act_list_title2">Set-up country</string>
+    <string name="others_act_list_title3">Security search grade</string>
+    <string name="others_act_list_title4">Inform uploader video</string>
+    <string name="others_act_list_title5">sound quality in music extraction</string>
+
+    <string name="others_act_list_title6">video\'s download quality</string>
+    <string name="others_act_list_title7">Save folder</string>
+    
+    <string name="others_act_list_title8">About</string>
+    <string name="others_act_list_title9">Contact complaints</string>
+    
+    <string name="safe_search_text0">Nothing</string>
+    <string name="safe_search_text1">Basic</string>
+    <string name="safe_search_text2">Strict</string>
+    
+    <string name="noti_alert_yes">Push ON</string>
+    <string name="noti_alert_no">Push OFF</string>
+    
+    <!-- 음원품질 -->
+    <string name="save_mp3_128">128k</string>
+    <string name="save_mp3_192">192k</string>
+    <string name="save_mp3_256">256k</string>
+    <string name="save_mp3_320">320k</string>
+    
+    <!-- 영상품질 선택 -->
+    <string name="mv_resolution_high">720p</string>
+    <string name="mv_resolution_medium">480p~360p</string>
+    <string name="mv_resolution_low">Less than 360p</string>
+    
+    <string name="default_error">Error. Please, try again.</string>
+    
+    <!-- 앱 소개 및 팀 소개 -->
+    <string name="about_text">YOUTUBE FAVORITE v1.0\n\nCopyright(c) 2014 \nTeam Infinity\nAll rights reserved.\n\nThanks for using our Youtube Favorite.\nIf do you have any problem or reference, please send to our e-mail.\nWe are always waiting for your opinion.\ncontact@teaminfinity.naveroffice.com\n\n※sent via youtube favorite commercial use or redistribution of any content is prohibited.\n\n</string>
+    
+    <string name="share_text">Share Video</string>
+    <string name="share_footer">Android App Youtube Favorite\nhttp://goo.gl/uSGey1</string>
+    
+    <!-- v 1.2 즐겨찾기 다이어로그 -->
+    <string name="fav_dialog_choice_title">Choose how to add</string>
+    <string-array name="fav_dialog_choice_text">
+        <item>Add movie to favorite</item>
+        <item>Subscribe channel</item>
+        <item>Add video to playlist</item>
+    </string-array>
+    <string name="fav_upload_just_remove_only"></string>
+    
+    <!-- v 1.2.4 버전체크 -->
+    <string name="update_need_title">Needs to be updated.</string>
+    <string name="update_need_msg">Update is required for use.\nPress OK to go to the google play store.</string>    
+    <string name="update_recommend_title">There are latest update.</string>
+    <string name="update_recommend_msg">The new version %s is available\nWould you like to go update now?</string>
+    <string name="update_not_require_title">Version Information</string>
+    <string name="update_not_require">The latest version.</string>
+    
+     <!-- v 1.3 문의하기 추가 -->
+    <string name="contact_title">Please enter the subject.</string>
+    <string name="contact_msg">Please enter the contents.</string>
+    <string name="contact_submit">Send to Team Infinity</string>
+    <string name="contact_error">Error occured.</string>
+    <string name="contact_success">Send complete.</string>
+    
+</resources>

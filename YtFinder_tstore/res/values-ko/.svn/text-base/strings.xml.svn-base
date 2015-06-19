@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">유튜브 검색기</string>
+
+    <string name="http_null_error">네트워크 상태가 불안정합니다. 재시도 바랍니다.</string>
+    <string name="load">잠시만 기다려주세요.</string>
+    <string name="srch_query_hint">검색어</string>
+    <string name="srch_category_info">카테고리</string>
+    <string name="srch_date_start">업로드날짜 (시작)</string>
+    <string name="srch_date_end">업로드날짜 (마지막)</string>
+    <string name="srch_video_time">재생시간</string>
+    <string name="srch_nation">검색국가</string>
+    <string name="srch_event">이벤트</string>
+    
+    <string name="sort_date">최신순</string>
+    <string name="sort_rating">평가순</string>
+    <string name="sort_viewcnt">조회수</string>
+    <string name="sort_default">관련순</string>
+    
+    <string name="play_repeat">반복재생</string>
+    
+    <string name="menu_1_text">플레이 리스트</string>
+    <string name="menu_2_text">즐겨찾기</string>
+    <string name="menu_3_text">카테고리</string>
+    <string name="menu_4_text">더보기</string>
+    
+    <string name="sort_btn_viewcount">조회순</string>
+    <string name="sort_btn_datetime">등록순</string>
+    <string name="sort_btn_recommend">추천순</string>
+    
+</resources>

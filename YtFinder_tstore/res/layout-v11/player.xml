@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcproject.net.customview.ActionBarPaddedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/layout_portrait"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <!-- 중앙 버튼 4개 -->
+			<include layout="@layout/player_btns"/>
+
+            <!-- 검색  -->
+            <include layout="@layout/inner_search_layer"/>
+            
+            <ListView
+                android:id="@+id/mv_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:listSelector="@color/red"
+                android:scrollbars="vertical" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.mcproject.net.customview.ActionBarPaddedFrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" 
+    android:background="@color/gray">
+
+    <TextView
+        android:id="@+id/expend_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:gravity="center_vertical"
+        android:paddingLeft="40dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/mv_count"
+        android:layout_width="wrap_content"
+        android:minWidth="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:textSize="13dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/button_red"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@color/white" />
+
+    <com.mcproject.net.customview.RecyclingImageView
+        android:id="@+id/uploader_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:paddingRight="8dp"
+        android:src="@drawable/uploader_delete" />
+
+</FrameLayout>

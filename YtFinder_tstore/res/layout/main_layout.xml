@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_srch" />
+
+    <include layout="@layout/top_sort_menu" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/list_bg" >
+
+        <ListView
+            android:id="@+id/list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/hline"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="true"/>
+
+        <include layout="@layout/srch_detail"/>
+        
+    </FrameLayout>
+
+    <include layout="@layout/bottom_menu" />
+
+</LinearLayout>

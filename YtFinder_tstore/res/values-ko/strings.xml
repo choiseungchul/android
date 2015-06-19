@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Youtube Favorite</string>
+
+    <!-- 공통 -->
+    <string name="http_null_error">네트워크 상태가 불안정합니다. 재시도 바랍니다.</string>
+    <string name="load">잠시만 기다려주세요.</string>
+    <string name="network_load">목록을 로드중입니다. 기다려주세요.</string>
+    <string name="srch_query_hint">검색어</string>
+    <string name="srch_category_info">카테고리</string>
+    <string name="srch_date_start">업로드날짜 (시작)</string>
+    <string name="srch_date_end">업로드날짜 (마지막)</string>
+    <string name="srch_video_time">재생시간</string>
+    <string name="srch_nation">검색국가</string>
+    <string name="srch_event">이벤트</string>
+    
+    <string name="on_finish">한번더 누르시면 종료됩니다.</string>
+    
+    <string name="duration_hour">시간 </string>
+    <string name="duration_minute">분 </string>
+    <string name="duration_second">초 </string>
+    
+    <string name="user_select_nation_title">귀하의 국가를 설정해 주십시오.</string>
+    <string-array name="user_select_nation_names">
+        <item>대한민국</item>
+        <item>일본</item>
+        <item>중국</item>
+        <item>미국</item>
+        <item>영국</item>
+        <item>대만</item>
+        <item>홍콩</item>
+    </string-array>
+    <!-- 국가 코드 -->
+    <string-array name="user_select_nation_regionCode">
+        <item>KR</item>
+        <item>JP</item>
+        <item>US</item><!-- 원래는 CN 이지만 데이터가 안나오므로 US -->
+        <item>US</item>
+        <item>UK</item>
+        <item>TW</item>
+        <item>HK</item>
+    </string-array>
+    <!-- 언어 코드 -->
+    <string-array name="user_select_nation_hlcode">
+        <item>ko</item>
+        <item>ja</item>
+        <item>zh-CN</item>
+        <item>en</item>
+        <item>en</item>
+        <item>zh-TW</item>
+        <item>en</item>
+    </string-array>
+    
+    <string name="sort_date">최신순</string>
+    <string name="sort_rating">평가순</string>
+    <string name="sort_viewcnt">조회수</string>
+    <string name="sort_default">관련순</string>
+    
+    <string name="play_repeat">반복재생</string>
+    
+    <!-- menu -->
+    <string name="menu_1_text">검색 리스트</string>
+    <string name="menu_2_text">플레이 리스트</string>
+    <string name="menu_3_text">즐겨찾기</string>
+    <string name="menu_4_text">설정</string>
+    
+    <string name="sort_btn_viewcount">조회수</string>
+    <string name="sort_btn_datetime">등록일수</string>
+    <string name="sort_btn_recommend">추천수</string>
+    
+    <string name="srch">검색</string>
+    <string name="srch_alert">검색어를 입력해주세요.</string>
+    <string name="srch_loading">목록을 불러오고 있습니다.</string>
+    <string name="srch_empty_alert">더이상 없습니다.</string>
+    <string name="srch_sort_alert">검색한 결과에서만 지원됩니다.</string>
+    <string name="srch_playlist_not_support">플레이 리스트에서의 검색은 지원하지 않습니다.</string>
+    
+    <!-- 상세 검색 -->
+    <string name="srch_select_title_1">국가</string>
+    <string name="srch_select_title_1_1">카테고리</string>
+    <string name="srch_select_title_2">업로드 기간</string>
+    <string name="srch_select_title_3">업로더</string>
+    <string name="srch_select_title_4">영상시간</string>
+    <string name="srch_select_title_5">이름</string>
+    <string name="srch_select_title_6">정렬방법</string>
+    
+    <string name="srch_select_nation_btn">업로더 국가</string>
+    
+    <string name="srch_select_datepicker_title">검색할 기간을 설정하세요.</string>
+    <string name="srch_select_start_time">1980.01.01</string>
+    <string name="srch_select_end_time">현재시간</string>
+    <string name="srch_select_wheel_title1">년</string>
+    <string name="srch_select_wheel_title2">월</string>
+    <string name="srch_select_wheel_title3">일</string>
+    <!-- datepicker dialog 월 -->
+    <string-array name="datepicker_month">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string name="srch_select_datepicker_dialog_close">적용</string>
+    
+    <string name="srch_select_cate_btn">전체</string>
+    <string name="srch_select_cate_dialog_title">카테고리 선택</string>
+    <string name="srch_select_cate_loading">카테고리 목록 불러오는중...</string>
+    
+    <string name="srch_select_duration_title">비디오 러닝타임 선택</string>
+    <string name="srch_select_duration_default">모두</string>
+    <string-array name="srch_select_duration_item">
+        <item >모두</item>
+        <item>1분 미만</item>
+        <item >1 ~ 5 분</item>
+        <item >5 ~ 10 분</item>
+        <item >10 분이상</item>
+    </string-array>
+    
+    <string name="srch_select_start_btn">검색 시작</string>
+    <string name="srch_select_input_uploader_hint">업로더</string>
+    <string name="srch_select_duration">전부</string>
+    <string name="srch_select_query">영상 제목</string>
+    
+    <string name="srch_select_order_1">날짜별</string>
+    <string name="srch_select_order_2">평가</string>
+    <string name="srch_select_order_3">제목</string>
+    <string name="srch_select_order_4">업로더</string>
+    <string name="srch_select_order_5">조회수</string>
+    <string name="srch_select_order_6">정확도</string>
+    
+    <string name="srch_dialog_nation_title">국가를 선택하세요</string>
+    
+    <!-- 국가이름 및 국가코드 -->
+    <string-array name="srch_nation_names">
+        <item>전체</item>
+        <item>대한민국</item>
+        <item>중국</item>
+        <item>프랑스</item>
+        <item>독일</item>
+        <item>홍콩</item>
+        <item>인도</item>
+        <item>이탈리아</item>
+        <item>일본</item>
+        <item>말레이시아</item>
+        <item>싱가포르</item>
+        <item>스페인</item>
+        <item>대만</item>
+        <item>영국</item>
+        <item>미국</item>
+        <item>베트남</item>
+    </string-array>
+    
+    <string-array name="srch_nation_codes">
+        <item>ALL</item>
+        <item>KR</item>
+        <item>CN</item>
+        <item>FR</item>
+        <item>DE</item>
+        <item>HK</item>
+        <item>IN</item>
+        <item>IT</item>
+        <item>JP</item>
+        <item>MY</item>
+        <item>SG</item>
+        <item>ES</item>
+        <item>TW</item>
+        <item>GB</item>
+        <item>US</item>
+        <item>VN</item>
+    </string-array>
+    
+    <string name="srch_select_alert_date">업로드 기간을 다시 설정해주세요.</string>
+    <string name="srch_select_alert_query">검색어 또는 업로더를 입력해주세요.</string>
+    <string name="srch_select_alert_empty">검색 결과가 없습니다.</string>
+    
+    <string name="dialog_yes">예</string>
+    <string name="dialog_ok">확인</string>
+    <string name="dialog_no">아니오</string>
+    <string name="dialog_cancel">취소</string>
+    
+    <!-- 리스트 아이템 -->
+    <string name="list_item_channel_title">업로더 : </string>
+    <string name="list_item_mv_duration">영상 시간 : </string>
+    <string name="list_item_uploader_added">구독중 : </string>
+    
+    <!-- 즐겨찾기 -->
+    <string name="fav_dialog_video_add_title">영상 즐겨찾기 추가</string>
+    <string name="fav_dialog_video_add_msg">해당 동영상을 즐겨찾기및 플레이리스트에 추가하시겠습니까?</string>
+    <string name="fav_dialog_uploader_add_title">업로더 즐겨찾기 추가</string>
+    <string name="fav_dialog_uploader_add_msg">업로더 %s 님을 즐겨찾기에 추가하시겠습니까?</string>
+    <string name="fav_dialog_uploader_remove_title">업로더 즐겨찾기 제거</string>
+    <string name="fav_dialog_uploader_remove_msg">이 업로더를 즐겨찾기에서 제거하시겠습니까?</string>
+    
+    <string name="favlist_video_alreay_added">이 영상은 이미 즐겨찾기에 등록되어 있습니다.</string>
+    <string name="favlist_video_removed">영상이 즐겨찾기에서 삭제되었습니다.</string>
+    <string name="favlist_video_alreay_removed">이 영상은 이미 즐쳐찾기에서 제거되었습니다.</string>
+    <string name="favlist_uploader_id_alreay_added">이 업로더는 이미 즐겨찾기에 등록되어 있습니다.</string>
+    <string name="favlist_uploader_id_alreay_removed">이 업로더는 즐겨찾기에 등록되어 있지 않습니다.</string>
+    
+    <!-- 즐겨찾기 액티비티 탭 -->
+    <string name="fav_tab_1">영상</string>
+    <string name="fav_tab_2">업로더</string>
+    <string name="fav_tab_3">검색기록</string>
+    
+    <string name="keyword_delete_error">키워드 삭제가 실패하였습니다.</string>
+    <string name="uploader_delete_success">즐겨찾기된 업로더가 삭제되었습니다.</string>
+    <string name="uploader_delete_failed">업로더가 삭제가 실패하였습니다.</string>
+    <string name="uploader_delete_dialog_title">즐겨찾기 업로더 삭제</string>
+    <string name="uploader_delete_dialog_msg">즐겨찾기된 업로더를 삭제하시겠습니까?</string>
+    <string name="uploader_expendablelist_loadmore">영상 더보기</string>
+    
+    <!-- 플레이 리스트 -->
+    <string name="playlist_already_added">이 영상은 이미 플레이리스트에 있습니다.</string>
+    <string name="fav_to_playlist_add">영상이 플레이리스트에 등록되었습니다.</string>
+    <string name="fav_to_playlist_remove">영상이 플레이리스트에서 제거되었습니다.</string>
+    <string name="playlist_play_all">전체 재생</string>
+    <string name="playlist_delete_undo">실행 취소</string>
+    <string name="playlist_delete_all">전체 삭제</string>
+    
+    <string name="playlist_dialog_remove_all_title">플레이리스트 삭제</string>
+    <string name="playlist_dialog_remove_all_msg">플레이리스트에 등록된 모든 목록을 삭제하시겠습니까?</string>
+    
+    <string name="playlist_empty">플레이할 영상이 없습니다.</string>
+    
+    <string name="new_upload_content_added">새로운 영상이 업로드 되었습니다.</string>
+    <string name="new_upload_content_add_desc">%s 의 새로운 업로드 영상이 발견되었습니다.</string>
+    
+    
+    
+    <!-- 플레이어 -->
+    
+    <string name="mv_dn_dialog_title">영상 다운로드</string>
+    <string name="mv_dn_dialog_msg">위 영상을 다운로드 하시겠습니까?</string>
+    <string name="mp3_dn_dialog_title">영상 음원추출</string>
+    <string name="mp3_dn_dialog_msg">위 영상을 음원추출 하시겠습니까?</string>
+    
+    <string name="mv_down_low_resolution_alert">저화질 영상이 없을경우 중고화질의 영상이 다운로드 될수 있습니다.</string>
+    
+    <string name="mv_already_download">이미 영상을 다운로드 중입니다.</string>
+    <string name="mp3_already_download">이미 음원 추출중 입니다.</string>
+    
+    <string name="mv_download_btn">영상 다운로드</string>
+    <string name="mp3_download_btn">음원 mp3 다운로드</string>
+    <string name="mv_download_storage_error1">sd카드가 없습니다.</string>
+    <string name="mv_download_storage_error2">sd카드에 저장할 수 없습니다.</string>
+    <string name="mv_download_sdk_version_low">진저브레드(안드로이드 2.3) 이상에서만 다운로드가 지원됩니다.</string>
+    <string name="mv_download_is_not_loaded">동영상 로드중입니다. 다시 시도해 주세요.</string>
+    
+    <string name="mv_download_stream_url_failed">다운로드 할 수 없는 동영상입니다.</string>
+    <string name="stream_url_failed">다운로드 실패</string>
+    
+    <string name="mv_download_stream_url_others_m">낮은 해상도의 영상이없으므로 중화질 영상을 찾아봅니다.</string>
+    <string name="mv_download_stream_url_others_h">낮은 해상도의 영상이없으므로 고화질 영상을 찾아봅니다.</string>
+    
+    <string name="mp3_download_limited">하루 음원 추출 허용량을 초과하였습니다.</string>
+    <string name="mp3_size_too_big">10분 미만의 영상만 음원 추출이 가능합니다.</string>
+    
+    <string name="player_list_dialog_title">관련 동영상 목록</string>
+    <string name="player_list_dialog_list_data_no">동영상 목록을 로드중입니다.</string>
+    
+    <!-- 플레이어 버튼 -->
+    <string name="player_btn_text1">반복 재생</string>
+    <string name="player_btn_text2">즐겨찾기</string>
+    <string name="player_btn_text3">검색하기</string>
+    <string name="player_btn_text3_2">즐겨찾기 검색</string>
+    <string name="player_btn_text4">다운로드</string>
+    <string name="player_btn_text5">공유하기</string>
+    
+    <!-- 업로더 영상 목록 -->
+    <string name="uploader_inner_search">검색</string>
+    <string name="uploader_inner_search_hint">업로더 영상 검색</string>
+    
+    <!-- 더보기 -->
+    <string name="others_act_list_title1">버전 정보</string>
+    <string name="others_act_list_title2">국가 설정</string>
+    <string name="others_act_list_title3">안전검색 등급</string>
+    <string name="others_act_list_title4">업로더 영상 알림</string>
+    <string name="others_act_list_title5">음원 추출 음질설정</string>
+    <string name="others_act_list_title6">영상 다운로드 품질 설정</string>
+    <string name="others_act_list_title7">저장 폴더</string>
+    <string name="others_act_list_title8">About</string>
+    
+    <string name="safe_search_text0">없음</string>
+    <string name="safe_search_text1">기본</string>
+    <string name="safe_search_text2">엄격하게</string>
+    
+    <string name="noti_alert_yes">켜짐</string>
+    <string name="noti_alert_no">꺼짐</string>
+    
+    <!-- 음원품질 -->
+    <string name="save_mp3_128">128k</string>
+    <string name="save_mp3_192">192k</string>
+    <string name="save_mp3_256">256k</string>
+    <string name="save_mp3_320">320k</string>
+    
+    <!-- 영상품질 선택 -->
+    <string name="mv_resolution_high">720p이상</string>
+    <string name="mv_resolution_medium">480p~360p</string>
+    <string name="mv_resolution_low">240p이하</string>
+    
+    <string-array name="others_act_list">
+        <item></item>
+        <item>국가 설정</item>
+        <item>검색 등급</item>
+        <item>업로더 영상 알림</item>
+        <item>다운로드 해상도 설정</item>
+        <!-- 
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+         -->
+    </string-array>
+    
+    <string name="default_error">오류입니다. 잠시 후 다시 시도 해주세요.</string>
+    
+    <string name="about_text">YOUTUBE FAVORITE v1.0\n\nCopyright(c) 2014 \nTeam Infinity\nAll rights reserved.\n\nYoutube Favorite을 사용해 주셔서 감사합니다.\n모든 문의, 불편 사항은 아래 메일로 보내주시면 감사 드리겠습니다\n언제나 여러분의 의견을 기다립니다.\ncontact@teaminfinity.naveroffice.com\n\n※youtube favorite을 통해 전송된 모든 컨텐츠의 상업적사용 또는 재배포를 금지합니다.\n\n</string>
+    
+    <!-- v 1.2 공유하기 -->
+    <string name="share_text">공유 하기</string>
+    <string name="share_footer">Android App Youtube Favorite\nhttp://goo.gl/uSGey1</string>
+    
+    <!-- v 1.2 즐겨찾기 다이어로그 -->
+    <string name="fav_dialog_choice_title">추가 할 방법을 선택하세요</string>
+    <string-array name="fav_dialog_choice_text">
+        <item>영상을 즐겨찾기에 추가</item>
+        <item>이 업로더를 즐겨찾기에 추가</item>
+        <item>플레이리스트에 추가</item>
+    </string-array>
+    <string name="fav_upload_just_remove_only">업로더 구독 취소는 즐겨찾기 탭의 업로더 목록에서만 가능합니다.</string>
+    
+    <!-- v 1.2.4 버전체크 -->
+    <string name="update_need_title">업데이트가 필요합니다.</string>
+    <string name="update_need_msg">앱이 최신버전이 아닙니다.\n원활한 사용을 위해 업데이트가 필요합니다.\n확인을 누르시면 마켓으로 이동합니다.</string>    
+    <string name="update_recommend_title">최신 업데이트가 있습니다.</string>
+    <string name="update_recommend_msg">새로운 버전 %s 이(가) 있습니다.\n지금 업데이트하러 가시겠습니까?</string>
+    <string name="update_not_require_title">버전 정보</string>
+    <string name="update_not_require">현재 최신 버전입니다.</string>
+    
+    <!-- v 1.3 문의하기 추가 -->
+    <string name="contact_title">제목을 넣어주세요.</string>
+    <string name="contact_msg">내용을 적어주세요.</string>
+    <string name="contact_submit">Team Infinity로 보냅니다.</string>
+    <string name="contact_error">오류발생.</string>
+    <string name="contact_success">전송완료.</string>
+    
+    <string name="others_act_list_title9">불편사항 보내기</string>
+    
+</resources>

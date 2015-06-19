@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_srch" />
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/list_bg" >
+
+        <ListView
+            android:id="@+id/list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/hline_deprecate"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="true"
+            android:paddingTop="60dp"/>
+        
+        <com.mcproject.net.customview.FloatingGroupExpandableListView
+            android:id="@+id/expendablelist_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/hline_deprecate"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="true"
+            android:paddingTop="60dp"
+            android:visibility="gone"/>
+        
+        <include layout="@layout/favorite_tab" />
+
+        <include layout="@layout/srch_detail" />
+    </FrameLayout>
+
+    <include layout="@layout/bottom_menu" />
+
+</LinearLayout>

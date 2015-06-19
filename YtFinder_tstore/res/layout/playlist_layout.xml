@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_srch" />
+
+    <include layout="@layout/playlist_playbtns" />
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/list_bg" >
+
+        <com.mcproject.net.customview.TouchListView
+            xmlns:tlv="http://schemas.android.com/apk/res/com.mcproject.ytfavorite_t"
+            android:id="@+id/list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/hline_deprecate"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="true"
+            tlv:expanded_height="100dp"
+            tlv:grabber="@+id/menu_icon"
+            tlv:normal_height="78dp"
+            tlv:remove_mode="slideLeft" />
+
+        <include layout="@layout/srch_detail" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/playlist_del_undo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/playlist_delete_undo" 
+        android:visibility="gone">
+    </TextView>
+
+    <include layout="@layout/bottom_menu" />
+
+</LinearLayout>

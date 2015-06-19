@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 상세검색 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srch_detail_layer"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_gravity="right"    
+    android:background="@drawable/list_bg"
+    android:orientation="vertical" >
+
+    <!-- 국가 선택 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_rb"
+            android:gravity="center_horizontal"
+            android:text="@string/srch_select_title_1" />
+
+        <TextView
+            android:id="@+id/srch_select_nation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_white"
+            android:gravity="center"
+            android:text="@string/srch_select_nation_btn"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- 카테고리 선택 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_rb"
+            android:gravity="center_horizontal"
+            android:text="@string/srch_select_title_1_1" />
+
+        <TextView
+            android:id="@+id/srch_select_cate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_white"
+            android:gravity="center"
+            android:text="@string/srch_select_cate_btn"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- 업로드 날짜 선택 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_rb"
+            android:gravity="center_horizontal"
+            android:text="@string/srch_select_title_2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/srch_select_start_date"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/button_white"
+                android:gravity="center"
+                android:text="@string/srch_select_start_time"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/srch_select_end_date"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/button_white"
+                android:gravity="center"
+                android:text="@string/srch_select_end_time"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 업로더 검색 -->
+
+<!-- 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_rb"
+            android:gravity="center_horizontal"
+            android:text="@string/srch_select_title_3" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp" >
+
+            <EditText
+                android:id="@+id/srch_select_uploader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/input_bg"
+                android:gravity="center_vertical"
+                android:hint="@string/srch_select_input_uploader_hint"
+                android:imeOptions="actionNext"
+                android:paddingLeft="3dp"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+ -->
+    <!-- 영상 시간 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_rb"
+            android:gravity="center_horizontal"
+            android:text="@string/srch_select_title_4" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/srch_select_duration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_white"
+                android:gravity="center"
+                android:text="@string/srch_select_duration_default"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 이름 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_rb"
+            android:gravity="center_horizontal"
+            android:text="@string/srch_select_title_5" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp" >
+
+            <EditText
+                android:id="@+id/srch_select_query"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/input_bg"
+                android:gravity="center_vertical"
+                android:hint="@string/srch_select_query"
+                android:paddingLeft="3dp"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 정렬 방식 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_rb"
+            android:gravity="center_horizontal"
+            android:text="@string/srch_select_title_6" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/order_type_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/srch_select_order_1" />
+
+                <RadioButton
+                    android:id="@+id/order_type_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/srch_select_order_2" />
+
+                <RadioButton
+                    android:id="@+id/order_type_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/srch_select_order_3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/order_type_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/srch_select_order_4" />
+
+                <RadioButton
+                    android:id="@+id/order_type_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/srch_select_order_5" />
+                
+                <RadioButton
+                    android:id="@+id/order_type_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/srch_select_order_6" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/srch_detail_start"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_white"
+        android:gravity="center"
+        android:text="@string/srch_select_start_btn"
+        android:textColor="@color/black" />
+
+</LinearLayout>

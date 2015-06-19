@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="textcolor">#666666</color>
+    <color name="black">#000000</color>
+    <color name="skyblue">#00a1e2</color>
+    <color name="gray">#242424</color>
+    <color name="gray_dot">#d9d9d9</color>
+    <color name="red">#ff0000</color>
+    <color name="yt_red">#cc181e</color>
+    <color name="button_yellow">#FFD712</color>
+    <color name="list_select">#323232</color>
+</resources>

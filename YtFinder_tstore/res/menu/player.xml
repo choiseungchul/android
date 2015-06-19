@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/player_menu_playtype"
+          android:icon="@drawable/fav_icon_on"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/player_menu_favorite"
+          android:icon="@drawable/srch_detail_on"/>
+    <item android:id="@+id/player_menu_search"
+          android:icon="@drawable/download_btn"/>
+    <item android:id="@+id/player_menu_download"
+          android:icon="@drawable/download_btn"/>
+</menu>

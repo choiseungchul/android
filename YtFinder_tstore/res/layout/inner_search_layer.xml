@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inner_srch_layer"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@drawable/search_bar_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="2dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="2dp"
+    android:visibility="gone" >
+
+    <EditText
+        android:id="@+id/inner_search"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/input_bg"
+        android:hint="@string/srch_alert"
+        android:imeOptions="actionSearch"
+        android:paddingLeft="3dp"
+        android:singleLine="true"
+        android:textColor="@color/black" />
+
+    <!-- 
+    <TextView
+        android:id="@+id/inner_sbtn"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/button_blue"
+        android:gravity="center"
+        android:text="@string/srch" />
+         -->
+
+</LinearLayout>
