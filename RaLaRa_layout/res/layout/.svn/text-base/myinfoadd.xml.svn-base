@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <include layout="@layout/top_sub" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <com.returndays.customview.TextViewNanumGothic
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="배송지 주소를 입력해주세요."
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+        
+        <EditText
+            android:id="@+id/transfer_addr"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/transfer_addr"
+            android:singleLine="true"
+            android:textSize="15dp" />
+
+        <com.returndays.customview.TextViewNanumGothic
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="휴대폰 정보를 입력해주세요."
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/hp_no"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="90dp"
+            android:layout_marginTop="10dp"
+            android:hint="휴대폰 번호를 넣어주세요.( - 제외)"
+            android:inputType="number"
+            android:maxLength="11"
+            android:singleLine="true"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/button_yellow"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/makefg" />
+
+            <TextView
+                android:id="@+id/r2scratch_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="배송지 주소가 정확하지 않을경우 경품이 발송되지 않을 수 있습니다."
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tocokr/!svn/ver/660/trunk/raLara_layout/src/com/returndays/ralara/service
+END
+WindowViewService.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tocokr/!svn/ver/244/trunk/raLara_layout/src/com/returndays/ralara/service/WindowViewService.java
+END
+ContactSendService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tocokr/!svn/ver/544/trunk/raLara_layout/src/com/returndays/ralara/service/ContactSendService.java
+END
+AdDownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tocokr/!svn/ver/660/trunk/raLara_layout/src/com/returndays/ralara/service/AdDownloadService.java
+END
+PushToastService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tocokr/!svn/ver/270/trunk/raLara_layout/src/com/returndays/ralara/service/PushToastService.java
+END
+AdSlideService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tocokr/!svn/ver/645/trunk/raLara_layout/src/com/returndays/ralara/service/AdSlideService.java
+END
+CallService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/592/trunk/raLara_layout/src/com/returndays/ralara/service/CallService.java
+END
+AppInstallFinderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tocokr/!svn/ver/592/trunk/raLara_layout/src/com/returndays/ralara/service/AppInstallFinderService.java
+END
+callOutService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tocokr/!svn/ver/645/trunk/raLara_layout/src/com/returndays/ralara/service/callOutService.java
+END

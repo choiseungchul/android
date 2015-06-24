@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sp_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center|bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <com.example.android.bitmapfun.ui.RecyclingImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="61dp"
+            android:src="@drawable/splash_big_r" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="156dp"
+            android:layout_height="6dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="21dp"
+            android:max="100"
+            android:progressDrawable="@drawable/seekbar_custom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="2"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <com.returndays.customview.TextViewNanumGothic
+            android:id="@+id/company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="@string/company"
+            android:textColor="@color/purple_text"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <com.returndays.customview.TextViewNanumGothic
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10sp"
+            android:text="@string/copyright"
+            android:textColor="@color/purple_text"
+            android:textSize="9dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myreward_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="10" >
+
+        <com.example.android.bitmapfun.ui.RecyclingImageView
+            android:id="@+id/ad_thumb"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+             />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="13dp"
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:paddingTop="7dp" >
+
+            <TextView
+                android:id="@+id/ad_title"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_span="2"
+                android:singleLine="true"
+                android:text="매일유업 김연아"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="2013.08.22"
+                android:textColor="#808080"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/goto_adbtn"
+                android:layout_width="8dp"
+                android:layout_height="20dp"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/ad_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

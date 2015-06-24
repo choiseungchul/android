@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/673/trunk/raLara_layout/src/com/returndays/ralara/dto
+END
+BaseDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tocokr/!svn/ver/48/trunk/raLara_layout/src/com/returndays/ralara/dto/BaseDto.java
+END
+TalkRoomTimeDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/134/trunk/raLara_layout/src/com/returndays/ralara/dto/TalkRoomTimeDto.java
+END
+AdSimpleDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tocokr/!svn/ver/320/trunk/raLara_layout/src/com/returndays/ralara/dto/AdSimpleDto.java
+END
+RankingDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tocokr/!svn/ver/619/trunk/raLara_layout/src/com/returndays/ralara/dto/RankingDto.java
+END
+FindFriendDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/619/trunk/raLara_layout/src/com/returndays/ralara/dto/FindFriendDto.java
+END
+TalkMakeDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tocokr/!svn/ver/164/trunk/raLara_layout/src/com/returndays/ralara/dto/TalkMakeDto.java
+END
+MyRewardDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tocokr/!svn/ver/291/trunk/raLara_layout/src/com/returndays/ralara/dto/MyRewardDto.java
+END
+RecommFriendDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/450/trunk/raLara_layout/src/com/returndays/ralara/dto/RecommFriendDto.java
+END
+SettingInfoDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tocokr/!svn/ver/271/trunk/raLara_layout/src/com/returndays/ralara/dto/SettingInfoDto.java
+END
+CommentDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tocokr/!svn/ver/293/trunk/raLara_layout/src/com/returndays/ralara/dto/CommentDto.java
+END
+CallAdCategoryDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tocokr/!svn/ver/300/trunk/raLara_layout/src/com/returndays/ralara/dto/CallAdCategoryDto.java
+END
+SettingSoundDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/131/trunk/raLara_layout/src/com/returndays/ralara/dto/SettingSoundDto.java
+END
+ContactDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tocokr/!svn/ver/437/trunk/raLara_layout/src/com/returndays/ralara/dto/ContactDto.java
+END
+StoreDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tocokr/!svn/ver/48/trunk/raLara_layout/src/com/returndays/ralara/dto/StoreDto.java
+END
+CallAdDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/660/trunk/raLara_layout/src/com/returndays/ralara/dto/CallAdDto.java
+END
+AdDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tocokr/!svn/ver/59/trunk/raLara_layout/src/com/returndays/ralara/dto/AdDto.java
+END
+DevideInfoDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/673/trunk/raLara_layout/src/com/returndays/ralara/dto/DevideInfoDto.java
+END
+TalkPushListDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/258/trunk/raLara_layout/src/com/returndays/ralara/dto/TalkPushListDto.java
+END
+HttpResultDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/48/trunk/raLara_layout/src/com/returndays/ralara/dto/HttpResultDto.java
+END
+PushMsgDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tocokr/!svn/ver/206/trunk/raLara_layout/src/com/returndays/ralara/dto/PushMsgDto.java
+END
+MyPageInfoDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/103/trunk/raLara_layout/src/com/returndays/ralara/dto/MyPageInfoDto.java
+END
+ReplyDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tocokr/!svn/ver/48/trunk/raLara_layout/src/com/returndays/ralara/dto/ReplyDto.java
+END
+InOutCallAdDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/48/trunk/raLara_layout/src/com/returndays/ralara/dto/InOutCallAdDto.java
+END
+TalkListDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tocokr/!svn/ver/260/trunk/raLara_layout/src/com/returndays/ralara/dto/TalkListDto.java
+END
+UserDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tocokr/!svn/ver/56/trunk/raLara_layout/src/com/returndays/ralara/dto/UserDto.java
+END
+SettingAlertDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/211/trunk/raLara_layout/src/com/returndays/ralara/dto/SettingAlertDto.java
+END
+MyScratchDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/309/trunk/raLara_layout/src/com/returndays/ralara/dto/MyScratchDto.java
+END

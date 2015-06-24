@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tocokr/!svn/ver/277/trunk/raLara_layout/res/anim
+END
+card_flip_right_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tocokr/!svn/ver/277/trunk/raLara_layout/res/anim/card_flip_right_out.xml
+END
+card_flip_left_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tocokr/!svn/ver/277/trunk/raLara_layout/res/anim/card_flip_left_out.xml
+END
+rotate_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/136/trunk/raLara_layout/res/anim/rotate_in.xml
+END
+card_flip_left_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tocokr/!svn/ver/277/trunk/raLara_layout/res/anim/card_flip_left_in.xml
+END
+rotate_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tocokr/!svn/ver/136/trunk/raLara_layout/res/anim/rotate_out.xml
+END
+zoom_exit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/136/trunk/raLara_layout/res/anim/zoom_exit.xml
+END
+card_flip_right_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tocokr/!svn/ver/277/trunk/raLara_layout/res/anim/card_flip_right_in.xml
+END
+zoom_enter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tocokr/!svn/ver/136/trunk/raLara_layout/res/anim/zoom_enter.xml
+END
+fade.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/tocokr/!svn/ver/136/trunk/raLara_layout/res/anim/fade.xml
+END
+hold.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/tocokr/!svn/ver/136/trunk/raLara_layout/res/anim/hold.xml
+END

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/talk_in_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/talk_in_top"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/talk_keyword"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            android:text="키워드"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="6"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/talk_timer"
+                android:layout_width="80dp"
+                android:layout_height="24dp"
+                android:background="@drawable/talk_time_back"
+                android:gravity="right|center_vertical"
+                android:paddingRight="10dp"
+                android:text="0: 00: 00"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+            <!-- android:background="@drawable/talk_time_back" -->
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/talk_push_on"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/talk_push_on"
+                android:visibility="visible" />
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/talk_push_off"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/talk_push_off"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView 
+            android:id="@+id/comm_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dp"
+            android:divider="#cfcfcf"
+            android:dividerHeight="0.5dp"
+            android:fadeScrollbars="true"
+            android:headerDividersEnabled="false"
+            android:scrollbars="vertical" 
+            android:paddingBottom="50dp">
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/input_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:padding="5dp" 
+            android:background="@drawable/border_top">
+
+            <EditText
+                android:id="@+id/comm_text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="8"
+                android:background="@drawable/textbox_bg"
+                android:hint="댓글입력"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:windowSoftInputMode="adjustPan|stateHidden" />
+
+            <Button
+                android:id="@+id/comm_write"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-2dp"
+                android:layout_weight="2"
+                android:background="@drawable/button_purple"
+                android:gravity="center"
+                android:text="입력"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

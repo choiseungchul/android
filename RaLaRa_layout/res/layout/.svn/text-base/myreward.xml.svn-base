@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+	
+    <include layout="@layout/top_sub"/>
+    
+    <LinearLayout
+        android:id="@+id/mypage_gubun"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"
+        android:background="@color/adlist_cont_bg">
+
+        <TextView
+            android:id="@+id/mypage_gubun_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/yellow_count_bg"
+            android:paddingLeft="7dp"
+            android:paddingTop="6dp"
+            android:text="@string/myreward_tit"
+            android:textColor="#5d1f7b"
+            android:textSize="14sp" />
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/my_reward_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:divider="@color/gray_3"
+        android:dividerHeight="0.5dp">
+        
+    </ListView>
+    
+</LinearLayout>

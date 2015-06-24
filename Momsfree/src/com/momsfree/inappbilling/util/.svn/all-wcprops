@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/inappbilling/util
+END
+Security.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/inappbilling/util/Security.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/inappbilling/util/Base64.java
+END
+Inventory.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/inappbilling/util/Inventory.java
+END
+Base64DecoderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/inappbilling/util/Base64DecoderException.java
+END
+IabHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/inappbilling/util/IabHelper.java
+END
+IabResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/inappbilling/util/IabResult.java
+END
+SkuDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/inappbilling/util/SkuDetails.java
+END
+IabException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/inappbilling/util/IabException.java
+END
+Purchase.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/inappbilling/util/Purchase.java
+END

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/title_bar"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.returndays.customview.TextViewNanumGothic
+                android:id="@+id/join_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/member_join"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <com.returndays.customview.TextViewNanumGothic
+                android:id="@+id/join_submit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_yellow"
+                android:gravity="center"
+                android:text="@string/join_btn"
+                android:textColor="@color/purple_text"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <!-- 상단 끝 -->
+
+        <LinearLayout
+            android:id="@+id/setting_gubun"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/adlist_cont_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/setting_gubun_title"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/adlist_gugun_bar"
+                android:paddingLeft="7dp"
+                android:paddingTop="6dp"
+                android:text="@string/join3_gubun1"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <!-- 구분선 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="8dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/e_mail_input1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/textbox_bg"
+                    android:hint="@string/join_email1_hint"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="20"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="#8c5ea1" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/tmpa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="\@"
+                    android:textColor="@color/gray_4"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/e_mail_input2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@drawable/textbox_bg"
+                    android:hint="@string/join_email2_hint"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="20"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="#8c5ea1" />
+
+                <Button
+                    android:id="@+id/email_list"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/drowdown_btn" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/email_check_text"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="8dp"
+                android:text=""
+                android:textColor="@color/purple"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/input_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/textbox_bg"
+                android:hint="@string/join_pass_hint"
+                android:inputType="textPassword"
+                android:ems="12"
+                android:maxLength="12"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="#8c5ea1" />
+
+            <EditText
+                android:id="@+id/input_nick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textbox_bg"
+                android:ems="10"
+                android:hint="@string/join_nick_hint"
+                android:maxLength="9"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="#8c5ea1" />
+
+            <TextView
+                android:id="@+id/nick_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/join_nick_check"
+                android:textColor="@color/purple_2"
+                android:visibility="invisible"
+                android:singleLine="true" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/setting_gubun"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/adlist_cont_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/setting_gubun_title"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/adlist_gugun_bar"
+                android:paddingLeft="7dp"
+                android:paddingTop="6dp"
+                android:text="@string/join3_gubun2"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/input_birthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_type_dark"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/join_birthday_input"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/input_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_type_dark"
+                android:padding="10dp"
+                android:text="성별"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48sp"
+                android:layout_marginTop="20sp"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/sido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_type_dark"
+                        android:padding="10dp"
+                        android:text="@string/join_sido"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/gugun"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:background="@drawable/button_type_dark"
+                        android:padding="10dp"
+                        android:text="@string/join_gugun"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

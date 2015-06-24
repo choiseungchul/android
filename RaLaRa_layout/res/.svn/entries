@@ -1,0 +1,97 @@
+10
+
+dir
+711
+https://dev.naver.com/svn/tocokr/trunk/raLara_layout/res
+https://dev.naver.com/svn/tocokr
+
+
+
+2014-01-07T00:25:03.077578Z
+710
+arcray
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1fb0916d-8e59-4941-883b-753ee53fd641
+
+anim
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+drawable-xxhdpi
+dir
+
+layout
+dir
+
+menu
+dir
+
+raw
+dir
+
+values
+dir
+
+values-es
+dir
+
+values-hdpi
+dir
+
+values-he
+dir
+
+values-iw
+dir
+
+values-ldpi
+dir
+
+values-mdpi
+dir
+
+values-sw600dp
+dir
+
+values-sw720dp-land
+dir
+
+values-v11
+dir
+
+values-v14
+dir
+
+values-xhdpi
+dir
+
+xml
+dir
+

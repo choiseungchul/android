@@ -1,0 +1,371 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/src/com/returndays/ralara
+END
+AdlistActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tocokr/!svn/ver/709/trunk/raLara_layout/src/com/returndays/ralara/AdlistActivity.java
+END
+TalkPopupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/495/trunk/raLara_layout/src/com/returndays/ralara/TalkPopupActivity.java
+END
+TutorialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/658/trunk/raLara_layout/src/com/returndays/ralara/TutorialActivity.java
+END
+FriendRecommActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tocokr/!svn/ver/697/trunk/raLara_layout/src/com/returndays/ralara/FriendRecommActivity.java
+END
+movieOnlyActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/494/trunk/raLara_layout/src/com/returndays/ralara/movieOnlyActivity.java
+END
+MypageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tocokr/!svn/ver/707/trunk/raLara_layout/src/com/returndays/ralara/MypageActivity.java
+END
+MyRewardActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/615/trunk/raLara_layout/src/com/returndays/ralara/MyRewardActivity.java
+END
+R2ScratchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/611/trunk/raLara_layout/src/com/returndays/ralara/R2ScratchActivity.java
+END
+SetAlertActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/248/trunk/raLara_layout/src/com/returndays/ralara/SetAlertActivity.java
+END
+GCMIntentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/703/trunk/raLara_layout/src/com/returndays/ralara/GCMIntentService.java
+END
+AdAlertActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tocokr/!svn/ver/492/trunk/raLara_layout/src/com/returndays/ralara/AdAlertActivity.java
+END
+ScratchResultActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tocokr/!svn/ver/654/trunk/raLara_layout/src/com/returndays/ralara/ScratchResultActivity.java
+END
+AdViewWebClientActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tocokr/!svn/ver/654/trunk/raLara_layout/src/com/returndays/ralara/AdViewWebClientActivity.java
+END
+FindFriendActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tocokr/!svn/ver/631/trunk/raLara_layout/src/com/returndays/ralara/FindFriendActivity.java
+END
+FaqActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tocokr/!svn/ver/685/trunk/raLara_layout/src/com/returndays/ralara/FaqActivity.java
+END
+TalkRoomMakeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/src/com/returndays/ralara/TalkRoomMakeActivity.java
+END
+ScratchResultFailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tocokr/!svn/ver/654/trunk/raLara_layout/src/com/returndays/ralara/ScratchResultFailActivity.java
+END
+FindUserFaqActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/685/trunk/raLara_layout/src/com/returndays/ralara/FindUserFaqActivity.java
+END
+TalkInActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/src/com/returndays/ralara/TalkInActivity.java
+END
+SettingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tocokr/!svn/ver/677/trunk/raLara_layout/src/com/returndays/ralara/SettingActivity.java
+END
+movieActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/494/trunk/raLara_layout/src/com/returndays/ralara/movieActivity.java
+END
+AdImageAdTempActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tocokr/!svn/ver/594/trunk/raLara_layout/src/com/returndays/ralara/AdImageAdTempActivity.java
+END
+AdCallSettingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tocokr/!svn/ver/492/trunk/raLara_layout/src/com/returndays/ralara/AdCallSettingActivity.java
+END
+AdViewFacebookActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tocokr/!svn/ver/145/trunk/raLara_layout/src/com/returndays/ralara/AdViewFacebookActivity.java
+END
+AdSlideActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tocokr/!svn/ver/654/trunk/raLara_layout/src/com/returndays/ralara/AdSlideActivity.java
+END
+CheckServerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/478/trunk/raLara_layout/src/com/returndays/ralara/CheckServerActivity.java
+END
+WithdrawActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/646/trunk/raLara_layout/src/com/returndays/ralara/WithdrawActivity.java
+END
+AdViewMobileWebActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tocokr/!svn/ver/572/trunk/raLara_layout/src/com/returndays/ralara/AdViewMobileWebActivity.java
+END
+LoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/707/trunk/raLara_layout/src/com/returndays/ralara/LoginActivity.java
+END
+Join2Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/685/trunk/raLara_layout/src/com/returndays/ralara/Join2Activity.java
+END
+SplashActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/src/com/returndays/ralara/SplashActivity.java
+END
+ScratchCardNonAdActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tocokr/!svn/ver/654/trunk/raLara_layout/src/com/returndays/ralara/ScratchCardNonAdActivity.java
+END
+RewardWebActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/631/trunk/raLara_layout/src/com/returndays/ralara/RewardWebActivity.java
+END
+AdImageOnlyActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/594/trunk/raLara_layout/src/com/returndays/ralara/AdImageOnlyActivity.java
+END
+FindEmailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/688/trunk/raLara_layout/src/com/returndays/ralara/FindEmailActivity.java
+END
+ImageZoom.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tocokr/!svn/ver/217/trunk/raLara_layout/src/com/returndays/ralara/ImageZoom.java
+END
+MyPassChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tocokr/!svn/ver/596/trunk/raLara_layout/src/com/returndays/ralara/MyPassChange.java
+END
+MyProfileActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/src/com/returndays/ralara/MyProfileActivity.java
+END
+CallEndActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tocokr/!svn/ver/669/trunk/raLara_layout/src/com/returndays/ralara/CallEndActivity.java
+END
+ScratchResultAdActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tocokr/!svn/ver/654/trunk/raLara_layout/src/com/returndays/ralara/ScratchResultAdActivity.java
+END
+ScratchListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/596/trunk/raLara_layout/src/com/returndays/ralara/ScratchListActivity.java
+END
+TalkMake2Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/597/trunk/raLara_layout/src/com/returndays/ralara/TalkMake2Activity.java
+END
+ExternalStartActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tocokr/!svn/ver/605/trunk/raLara_layout/src/com/returndays/ralara/ExternalStartActivity.java
+END
+RankingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tocokr/!svn/ver/703/trunk/raLara_layout/src/com/returndays/ralara/RankingActivity.java
+END
+SetAlertSoundActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tocokr/!svn/ver/596/trunk/raLara_layout/src/com/returndays/ralara/SetAlertSoundActivity.java
+END
+AdViewImageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/493/trunk/raLara_layout/src/com/returndays/ralara/AdViewImageActivity.java
+END
+BaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tocokr/!svn/ver/611/trunk/raLara_layout/src/com/returndays/ralara/BaseActivity.java
+END
+AdSurfaceViewActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tocokr/!svn/ver/156/trunk/raLara_layout/src/com/returndays/ralara/AdSurfaceViewActivity.java
+END
+SetSoundActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/596/trunk/raLara_layout/src/com/returndays/ralara/SetSoundActivity.java
+END
+TalkActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/src/com/returndays/ralara/TalkActivity.java
+END
+FindPassActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/688/trunk/raLara_layout/src/com/returndays/ralara/FindPassActivity.java
+END
+ScratchCardActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/654/trunk/raLara_layout/src/com/returndays/ralara/ScratchCardActivity.java
+END
+Join3Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/src/com/returndays/ralara/Join3Activity.java
+END
+testScratchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/331/trunk/raLara_layout/src/com/returndays/ralara/testScratchActivity.java
+END
+Join1Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/605/trunk/raLara_layout/src/com/returndays/ralara/Join1Activity.java
+END
+MyInfoAddActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/703/trunk/raLara_layout/src/com/returndays/ralara/MyInfoAddActivity.java
+END
+VersionInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/677/trunk/raLara_layout/src/com/returndays/ralara/VersionInfoActivity.java
+END
+SettingWebActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tocokr/!svn/ver/615/trunk/raLara_layout/src/com/returndays/ralara/SettingWebActivity.java
+END
+FBAuthActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/59/trunk/raLara_layout/src/com/returndays/ralara/FBAuthActivity.java
+END
+TalkPushListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tocokr/!svn/ver/495/trunk/raLara_layout/src/com/returndays/ralara/TalkPushListActivity.java
+END
+MyGoldCountActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tocokr/!svn/ver/611/trunk/raLara_layout/src/com/returndays/ralara/MyGoldCountActivity.java
+END

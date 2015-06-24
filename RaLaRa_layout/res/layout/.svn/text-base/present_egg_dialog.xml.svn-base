@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="230dp"
+    android:orientation="vertical" 
+    android:layout_gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/present_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="알 선물하기"
+        android:textColor="@color/white"
+        android:textSize="18dp" 
+        android:gravity="center"
+        android:background="@color/purple"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal" 
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/present_egg_count"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="45dp" 
+                android:background="@drawable/border_all"/>
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <com.example.android.bitmapfun.ui.RecyclingImageView
+                    android:id="@+id/present_egg_plus"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" 
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/present_plus"/>
+
+                <com.example.android.bitmapfun.ui.RecyclingImageView
+                    android:id="@+id/present_egg_minus"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" 
+                    android:src="@drawable/present_minus"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/present_egg_submit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="18dp" 
+            android:text="선물하기"
+            android:gravity="center"
+            android:background="@drawable/border_ltb"/>
+
+        <TextView
+            android:id="@+id/present_egg_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/border_all"
+            android:textSize="18dp" 
+            android:gravity="center"
+            android:text="그만두기"/>
+    </LinearLayout>
+
+</LinearLayout>

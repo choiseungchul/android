@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white_ptrn"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_blue" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+
+        <ImageView 
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:src="@drawable/login_title"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/login_input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/input_bg_white"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/login_input_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/input_bg_white"
+                    android:hint="@string/password"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <com.momsfree.net.customview.TextViewNanumGothic
+                android:id="@+id/login_btn"
+                android:layout_width="95dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_blue"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textSize="20dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            
+            <CheckBox 
+                android:id="@+id/auto_login_chk"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/auto_login_chk"
+                android:textColor="@color/black"
+                android:checked="true"
+                />
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/border_bottom_dotted"
+                android:layout_marginBottom="20dp" />
+            
+        </LinearLayout>
+        
+        <com.momsfree.net.customview.TextViewNanumGothic 
+            android:id="@+id/join_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/join"
+            android:background="@drawable/button_blue"
+            android:textColor="@color/white"/>
+        
+        <com.momsfree.net.customview.TextViewNanumGothic 
+            android:id="@+id/find_email_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/find_email"
+            android:background="@drawable/button_gray"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        
+        <com.momsfree.net.customview.TextViewNanumGothic 
+            android:id="@+id/find_pass_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/find_password"
+            android:background="@drawable/button_gray"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

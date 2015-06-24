@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/dialog_top_blue"
+        android:orientation="horizontal" >
+
+        <com.momsfree.net.customview.TextViewNanumGothic
+            android:id="@+id/srch_addr_backbtn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="뒤로"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <com.momsfree.net.customview.TextViewNanumGothic
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/find_addr_srch"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/srch_addr_close" 
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/dialog_close"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/addr_srch_input"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:hint="읍,면,동 검색" />
+
+            <com.momsfree.net.customview.TextViewNanumGothic
+                android:id="@+id/addr_srch_btn"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_gray"
+                android:gravity="center"
+                android:text="검색" 
+                android:textSize="16dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <com.momsfree.net.customview.TextViewNanumGothic
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:singleLine="true"
+            android:text="@string/find_addr_alert"
+            android:textColor="@color/gray"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp" >
+
+        <ListView
+            android:id="@+id/find_addr_result"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/gray_dot"
+            android:divider="@color/gray"
+            android:dividerHeight="0.5dp" 
+            >
+        </ListView>
+        
+        <com.momsfree.net.customview.TextViewNanumGothic
+            android:id="@+id/find_addr_result_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="검색 결과가 없습니다."
+            android:textColor="@color/black"
+            android:textSize="18dp" 
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</LinearLayout>

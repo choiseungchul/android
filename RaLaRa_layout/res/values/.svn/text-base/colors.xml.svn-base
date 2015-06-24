@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_item1">#00000000</color>
+    <color name="list_item2">#11000000</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="gray_default">#b8b7b7</color>
+    <color name="gray_3">#a5a5a5</color>
+    <color name="gray_4">#4d4d4d</color>
+    <color name="tab_bg">#ebebeb</color>
+    <color name="gray_5">#f8f8f8</color>
+    <color name="adlist_gugun_bar">#a3a0a2</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="purple">#8c5ea1</color>
+    <color name="purple_2">#776db4</color>
+    <color name="purple_text">#682688</color>
+    <color name="orange">#ffb43a</color>
+    <color name="blue">#3e5895</color>
+    <color name="dark_gray">#5d5d5d</color>
+    <color name="skyblue">#9dc3e6</color>
+    <color name="yellow">#fde070</color>
+    <color name="yellow_kakao">#ffe825</color>
+    <color name="brown_kakao">#493334</color>
+    
+    
+    <color name="font_black_1">#333333</color>
+    <color name="font_black_2">#464646</color>
+    <color name="red">#fd0036</color>
+    <color name="yellow_count_bg">#fff200</color>
+    <color name="adlist_cont_bg">#d8d8d8</color>
+    <color name="top_simple_br_bg">#ffffff</color>
+	<color name="talk_list_overlay">#A5FF0000</color>
+	<color name="ralra_green">#6db6a2</color>
+	<color name="ralra_graypink">#b06067</color>
+    
+    <drawable name="transparent_background">#00ffffff</drawable>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <dimen name="com_facebook_picker_place_image_size">64dp</dimen>
+
+    <color name="com_facebook_picker_search_bar_background">#f5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#bcbdc2</color>
+
+</resources>

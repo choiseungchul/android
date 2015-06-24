@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_back"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/popup_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/adlist_gubun"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Title"
+            android:textColor="@color/yellow"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/popup_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:singleLine="false"
+                android:text="msg"
+                android:textColor="#8a8a8a"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/adlist_cont" >
+
+                <Button
+                    android:id="@+id/popup_go"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="보기"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/popup_dismiss"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="닫기"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

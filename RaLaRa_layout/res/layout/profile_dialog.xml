@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.returndays.customview.SquareImageView
+        android:id="@+id/other_profile_image"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="@color/white"
+        android:src="@color/white" />
+
+    <TextView
+        android:id="@+id/other_profile_desc"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#010101"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    
+    <TextView
+        android:id="@+id/present_to_others"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/purple"
+        android:paddingLeft="15dp"
+        android:gravity="center"
+        android:text="알 선물하기"
+        android:textColor="@color/white"
+        android:textSize="15dp" 
+        android:visibility="gone"/>
+
+</LinearLayout>

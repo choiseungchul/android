@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/black" >
+
+        <TextView
+            android:id="@+id/join_title"
+            style="@style/app_title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="@string/member_join" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:weightSum="10" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="top"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/hp_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_num"
+                android:inputType="number"
+                android:singleLine="true"
+                android:ems="11"
+                android:maxLength="11"
+                android:background="@drawable/textbox_bg"
+                android:paddingLeft="10dp" 
+                >
+            </EditText>
+
+            <Button
+                android:id="@+id/hp_auth"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_type_dark"
+                android:text="@string/hp_auth"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/hp_authcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"                
+                android:hint="@string/hp_auth_box"
+                android:inputType="number"
+                android:maxLength="5"
+                android:background="@drawable/textbox_bg"
+                android:paddingLeft="10dp"
+                 />
+
+            <TextView
+                android:id="@+id/hp_auth_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="20dp"
+                android:hint="@string/hp_auth_timer"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            
+            <Button
+                android:id="@+id/fb_join_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/button_blue"
+                android:text="@string/fb_join_btn"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textColor="@color/white" 
+                android:visibility="gone"
+                />
+
+            <Button
+                android:id="@+id/nm_join_btn"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_type_purple"
+                android:padding="10dp"
+                android:text="@string/nm_join_btn"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

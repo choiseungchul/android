@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:weightSum="100"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+		    <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_weight="50"
+		        android:layout_height="40dp"
+		        android:orientation="horizontal"
+		        style="@style/app_btns_type1"
+		        android:gravity="left">
+		        
+		        <TextView
+		            android:id="@+id/ad_title"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/app_nm" 
+		            android:layout_marginLeft="6dp"
+					android:textColor="@color/white"
+		            />
+		        
+		    </LinearLayout>
+	    
+		    <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_weight="50"
+		        android:layout_height="40dp"
+		        android:orientation="horizontal"
+		        style="@style/app_btns_type1"
+		        android:gravity="right">
+		
+		        <ImageButton
+		            android:id="@+id/imageButton1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/srch_icon" />
+		        
+		        <ImageButton
+		            android:id="@+id/imageButton2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/menu_icon" />
+		        
+		    </LinearLayout>
+    
+    	</LinearLayout>
+
+    	<!-- 탭 메뉴 -->
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:weightSum="10"
+	            android:orientation="horizontal"
+	            android:background="@color/gray_1" >
+		        
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="2.5"
+	            android:orientation="horizontal" >
+	                <Button 
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:text="@string/ad_tab_01"
+	                    style="@style/ad_tab"/>
+	            </LinearLayout>
+		           
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	             android:layout_weight="2.5"
+	            android:orientation="horizontal" >
+	            	<Button 
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:text="@string/ad_tab_02"
+	                    style="@style/ad_tab"/>
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	             android:layout_weight="2.5"
+	            android:orientation="horizontal" >
+	            	<Button 
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:text="@string/ad_tab_03"
+	                    style="@style/ad_tab"/>
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	             android:layout_weight="2.5"
+	            android:orientation="horizontal" >
+	            	<Button 
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:text="@string/ad_tab_04"
+	                    style="@style/ad_tab"/>
+	            </LinearLayout>
+		        
+	        </LinearLayout>
+	    </LinearLayout>
+
+	    <!-- 컨텐츠영역 -->
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical" 
+	        android:paddingTop="20sp"
+	        android:padding="30sp">
+
+	        <!-- 이미지 또는 색 지정 -->
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="50sp" 
+	            android:layout_marginTop="30sp"
+	            android:orientation="horizontal"
+	            android:gravity="center_horizontal"
+	            >
+
+	            <Button
+	                android:id="@+id/button1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/room_photo_sct" 
+	                style="@style/app_btns_type1"
+	                android:layout_marginRight="10sp"
+	                />
+	            
+	            <Button
+	                android:id="@+id/colorpick"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/room_color_sct" 
+	                style="@style/app_btns_type1"/>
+	            
+	        </LinearLayout>
+
+	        <EditText
+	            android:id="@+id/editText1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:ems="10" 
+	            android:hint="@string/room_input_keyword_hint"
+	            android:layout_marginTop="10sp">
+	            <requestFocus />
+	        </EditText>
+
+	        <ListView
+	            android:id="@+id/listView1"
+	            android:layout_width="match_parent"
+	            android:layout_height="152sp" 
+	            android:layout_marginTop="10sp">
+	        </ListView>
+
+	        <Button
+	            android:id="@+id/button3"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/room_make_btn" 
+	            style="@style/app_btns_type1"
+	            android:layout_marginTop="25sp"/>
+	        
+	    </LinearLayout>
+	    
+</LinearLayout>

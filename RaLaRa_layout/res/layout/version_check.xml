@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vc_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/splash_bg">
+
+    <include layout="@layout/top_sub" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <com.example.android.bitmapfun.ui.RecyclingImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/splash_big_r" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <com.returndays.customview.TextViewNanumGothic
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="현재 버전"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <com.returndays.customview.TextViewNanumGothic
+                android:id="@+id/current_version_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="left|center_vertical"
+                android:text="로딩중.."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <com.returndays.customview.TextViewNanumGothic
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="최신 버전"
+                android:textColor="@color/purple"
+                android:textSize="18dp" />
+
+            <com.returndays.customview.TextViewNanumGothic
+                android:id="@+id/latest_version_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="left|center_vertical"
+                android:text="로딩중.."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.returndays.customview.TextViewNanumGothic
+        android:id="@+id/go_update"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_gray"
+        android:gravity="center"
+        android:text="업데이트 하기"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>

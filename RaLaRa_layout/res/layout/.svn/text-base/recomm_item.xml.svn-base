@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical" 
+    android:padding="12dp"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants">
+    
+    <com.returndays.customview.TextViewNanumGothic 
+        android:id="@+id/friend_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:text="로딩중.."
+        android:singleLine="true"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"/>
+    
+    <com.returndays.customview.TextViewNanumGothic 
+        android:id="@+id/friend_hp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:text="로딩중.."
+        android:singleLine="true"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/purple"/>
+    
+    <Button 
+        android:id="@+id/friend_recomm_btn"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="초대"
+        android:background="@drawable/button_purple"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_sub" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_bottom"
+            android:orientation="horizontal" >
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/icon_s" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="7"
+                android:paddingLeft="6dp"
+                android:text="@string/mypage_gold_m2r"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/my_moneycount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:paddingRight="10sp"
+                android:text=""
+                android:textColor="@color/purple"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal" >
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon_s" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="7"
+                android:paddingLeft="6dp"
+                android:text="변경후 남는 골드"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/m2r_result_gold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:paddingRight="10sp"
+                android:text=""
+                android:textColor="@color/purple"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/r2scratch_bg"
+            android:orientation="vertical"
+            android:padding="0dp" >
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="0dp"
+                android:src="@drawable/arrow_down" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/icon_bg" >
+
+                    <com.example.android.bitmapfun.ui.RecyclingImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/s_icon" />
+
+                    <TextView
+                        android:id="@+id/my_gold_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:background="@drawable/mychange_cnt"
+                        android:gravity="center"
+                        android:minWidth="40dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <com.example.android.bitmapfun.ui.RecyclingImageView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/r2_scratch_arrow" />
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/icon_bg" >
+
+                    <com.example.android.bitmapfun.ui.RecyclingImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/r_icon" />
+
+                    <TextView
+                        android:id="@+id/my_r_cnt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:background="@drawable/mychange_cnt"
+                        android:gravity="center"
+                        android:minWidth="40dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/exchange_bar_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/exg_count_minus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/count_minus" />
+
+            <SeekBar
+                android:id="@+id/m2r_exchange"
+                android:layout_width="0dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="5dp"
+                android:progressDrawable="@layout/seekbar_exchange"
+                android:thumb="@drawable/friend_recomm_seckk"
+                android:thumbOffset="-2dp" />
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/exg_count_plus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/count_plus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+            
+             <TextView 
+                android:id="@+id/goto_collect_m"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="@drawable/button_purple"
+                android:text="골드 모으는 방법"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"/>
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/button_yellow"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <com.example.android.bitmapfun.ui.RecyclingImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="left|top"
+                    android:src="@drawable/makefg" />
+
+                <TextView
+                    android:id="@+id/r2scratch_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="300골드를 알 1개로 변경 할 수 있습니다."
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

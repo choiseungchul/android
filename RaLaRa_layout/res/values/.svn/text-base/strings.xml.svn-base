@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name_kr">랄라라</string>
+    <string name="app_nm">RaLaRa</string>
+    <string name="network_disconnect_msg">네트워크가 연결되지 않았습니다.\n네트워크 설정을 확인해주세요.</string>
+    <string name="program_end_msg">프로그램을 종료하시겠습니까?</string>
+    <string name="join_sido">시/도</string>
+    <string name="join_gugun">구/군</string>
+    <string name="member_join">랄라라 회원가입</string>
+    <string name="company">By ReturnDays</string>
+    <string name="copyright">Copyright ⓒ ReturnDays All Rights Reserved.</string>
+    <string name="login_title">랄라라 로그인</string>
+    <string name="login_id_hint">ID (Email 주소)</string>
+    <string name="login_pass_hint">PASSWORD</string>
+    <string name="login_setauto">자동로그인</string>
+    <string name="login_btn">로그인</string>
+    <string name="join_btn">회원가입</string>
+    <string name="find_id_btn">아이디 찾기</string>
+    <string name="find_pass_btn">비밀번호 찾기</string>
+    <string name="login_complete_toast">님 반갑습니다. </string>
+    <string name="join_failed">회원가입이 실패하였습니다.</string>
+    <string name="already_Join">이미가입된 회원입니다.이메일주소 또는 닉네임을 확인해주세요.</string>
+    <string name="already_Join_abuse">탈퇴 후 7일 이전에 가입하실 수 없습니다.</string>
+    <string name="already_Join_abuse2">동일한 핸드폰 번호와 핸드폰으로 중복가입이 불가능합니다.</string>
+    <string name="userinfo_failed">사용자 정보를 가져오는데 실패 하였습니다.</string>
+    <string name="userinfo_success">랄라라 회원가입을  축하드립니다! 마이페이지에서 프로필 사진 등록 잊지마세요~</string>
+    <string name="birth_year_incorrect">생일 년도를 정확히 입력해주세요.</string>
+    <string name="join1_validate_msg1">인증번호를 입력하세요.</string>
+    <string name="join1_validate_msg2">인증번호를 다시 확인해주세요.</string>
+    <string name="join1_validate_msg3">모든 약관에 동의하셔야 합니다.</string>
+    <string name="join1_validate_msg4">휴대폰 번호를 입력하세요.</string>
+    <string name="auth_sms_msg">랄라라 회원가입 인증번호[%s]</string>
+    <string name="agree_required">약관에 동의하셔야 회원가입이 진행됩니다.</string>
+    <string name="hp_auth">핸드폰 인증</string>
+    <string name="phone_num"></string>
+    <string name="hp_reauth">재인증</string>
+    <string name="hp_auth_box">인증번호</string>
+    <string name="hp_auth_timer">인증시간 : </string>
+    <string name="hp_auth_complete">인증완료</string>
+    <string name="hp_auth_timeout">인증 제한시간이 초과되었습니다. 핸드폰 인증버튼을 다시 클릭 바랍니다. </string>
+    <string name="fb_join_btn">Facebook 연동가입</string>
+    <string name="nm_join_btn">일반 회원가입</string>
+    <string name="join_agree">동의하기</string>
+    <string name="join_next">회원정보 입력하기 >></string>
+    <string name="goto_friend_recomm">%s님 회원가입이 완료되었습니다.\n친구에게 랄라라 앱으로 초대하시면\n알을 적립해드립니다.\n확인을 누르시면 친구초대화면으로 넘어갑니다.\n취소를 누르시면 메인화면으로 이동합니다.</string>
+    
+    <string name="join_contents1">서비스 이용약관 >></string>
+    <string name="join_contents2">개인정보 취급방침 >></string>
+    <string name="join_contents3">위치기반 서비스 이용약관 >></string>
+    
+    <string name="join3_gubun1">* 기본 회원 정보</string>
+    <string name="join3_gubun2">* 추가정보 (스마트한 광고노출을 위해 입력해주세요.)</string>
+    
+    <string name="agree_btn">동의하기</string>
+    <string name="transfer_addr">정확한 배송지 주소를 입력해주세요.</string>
+    <string name="join_email1_hint">이메일</string>
+    <string name="join_email2_hint">직접입력</string>
+    <string name="join_pass_hint">패스워드</string>
+    <string name="withdraw_reason">탈퇴 사유를 입력해주세요.</string>
+    <string name="join_repass_hint">패스워드 확인</string>
+    <string name="join_nick_hint">닉네임</string>
+    <string name="join_nick_check">* 사용가능 닉네임입니다.</string>
+    <string name="join_nick_exist">* 이미 등록된 닉네임입니다.</string>
+    <string name="join_birthday">생년월일</string>
+    <string name="join_addr">배송지 주소 (시도, 구군)</string>
+    <string name="join_addr_detail">상세주소</string>
+    <string name="join_birth_year">년</string>
+    <string name="join_birth_month">월</string>
+    <string name="join_birth_day">일</string>
+    <string name="join_currpass_hint">현재 비밀번호</string>
+    <string name="ad_tab_01">광고</string>
+    <string name="ad_tab_02">Talk</string>
+    <string name="ad_tab_03">마이페이지</string>
+    <string name="ad_tab_04">설정</string>
+    <string name="ad_earn">미시청 잠금화면 광고</string>
+    <string name="ad_earned">시청 중 잠금화면 광고</string>
+    <string name="ad_end_msg">시청완료 잠금화면 광고</string>
+    
+    <string name="room_color_sct">색상 선택</string>
+    <string name="room_photo_sct">이미지 선택</string>
+    <string name="room_input_keyword_hint">키워드 입력</string>
+    <string name="room_make_btn">방 생성</string>
+    <string name="mypage_div_1">개인 정보</string>
+    <string name="mypage_div_2">활동 정보</string>
+    <string name="mypage_profile">내 프로필 정보</string>
+    <string name="mypage_repass">암호 변경</string>
+    <string name="mypage_add_info">배송지 입력</string>
+    <string name="mypage_fb_auth">페이스북 연동</string>
+    <string name="mypage_withraw">회원 탈퇴</string>
+    <string name="mypage_scratch_cnt">보유중인 스크래치 권</string>
+    <string name="mypage_egg_cnt">현재 보유 알 개수</string>
+    <string name="mypage_egg_r2scrath">현재 보유중인 알 개수</string>
+    <string name="mypage_gold_cnt">현재 보유 골드</string>
+    <string name="mypage_gold_m2r">현재 보유중인 골드</string>
+    <string name="mypage_myreward">나의 당첨 내역</string>
+    <string name="mypage_recomm_friend">친구 초대</string>
+    <string name="mypage_recomm_kakao">카카오톡 친구 초대</string>
+    <string name="mypage_find_friend">친구 찾기</string>
+    <string name="recomm_comment_text">생활속의 즐거움 랄라라~</string>
+    <string name="myprofile_submit">정보수정</string>
+    <string name="repass_btn">비밀번호 수정</string>
+    <string name="repass_hint">Password</string>
+    <string name="repass_hint2">Password 확인</string>
+    <string name="setting_menu1">버전정보</string>
+    <string name="setting_menu2">공지사항 및 도움말</string>
+    <string name="setting_menu3">메시지도착 알림 설정</string>
+    <string name="setting_menu4">알림음 설정</string>
+    <string name="setting_menu5">로고송 설정</string>
+    <string name="setting_menu6">수발신 광고 사용</string>
+    <string name="setting_menu7">잠금화면 광고 사용</string>
+    <string name="setting_menu8">문의하기</string>
+    <string name="setting_menu11">랄라라 사용법 보기1</string>
+    <string name="setting_menu12">랄라라 사용법 보기2</string>
+    <string name="friend_srch">내가 알고있는 친구의 닉네임을 검색해보세요!</string>
+    <string name="friend_srch_empty">검색된 닉네임이 없습니다.</string>
+    
+    <string name="setting_menu9">로그아웃</string>
+    <string name="setting_menu10">수발신 광고 설정</string>
+    <string name="setting_menu13">광고 모드 설정</string>
+    <string name="setting_menu1_1">메시지 도착알림</string>
+    <string name="setting_menu1_1_desc">랄라라를 보고 있지 않을 때 알람을 받습니다.</string>
+    <string name="setting_menu1_2">미리보기</string>
+    <string name="setting_menu1_2_desc">메시지도착 알림에서 메시지를 보여줍니다.</string>
+    <string name="setting_menu1_3">메시지도착 알림팝업</string>
+    <string name="setting_menu1_3_desc">화면이 꺼졌을때 메시지가 도착하면 팝업으로 알려줍니다.</string>
+    <string name="setting_menu2_1">랄라라1</string>
+    <string name="setting_menu2_2">랄라라2</string>
+    <string name="setting_menu2_3">랄라라3</string>
+    <string name="setting_menu2_4">랄라라4</string>
+    <string name="setting_menu2_5">랄라라5</string>
+    <string name="setting_gubun1">기본 정보</string>
+    <string name="setting_gubun2">알림 설정</string>
+    <string name="setting_gubun3">소리 설정</string>
+    <string name="setting_gubun4">광고 설정</string>
+    <string name="setting_gubun5">문의 하기</string>
+    <string name="setting_gubun_dev">개발자 설정</string>
+    <string name="setting_menu_dev1">스크래치 테스트</string>
+    <string name="http_null_error">네트워크 상태가 불안정합니다. 재시도 바랍니다.</string>
+    <string name="load">잠시만 기다려주세요.</string>
+
+    <string name="join_birthday_input">생년월일 입력</string>
+    <string name="adlist_empty">광고 준비중이거나\n시청중인 광고가 없습니다.\n\n새로운 광고를 보시려면 \n잠시 핸드폰 화면을 꺼두세요~ \n어느순간 화면을 켜시면 잠금화면에서 \n광고가 짠!! 하고 나타납니다.\n\n 단, 랄라라에서는 AM 02:00 ~ AM05:00시까지 \n여러분의 편안한 밤을 위하여 \n광고를 싣지 않습니다.\n느낌 아니까~ </string>
+    
+    <string name="recomm_comment">생활속의 즐거움 [랄라라] 앱으로 초대하셨습니다. http://bit.ly/ralara</string>
+    <string name="kakao_recomm_comment">게임보다 재미있는 즉시당첨의 묘미!\n[랄라라]에서 100%당첨의 \n기회를 잡으세요!</string>
+    <string name="server_check_text">보다 안정적인 서비스를 위하여\n시스템 점검 중 입니다.\n%s</string>
+    
+    <string name="tuto_title">랄라라를 즐기는방법!</string>
+    <string name="tuto_view_later">다음부터 보지않기</string>
+    
+    <string name="rank_info_title">상위 랭커에 도전해보세요!</string>
+    <string name="rank_info_msg">1위부터 10위까지 회원님들께 매주 소정의 선물을 증정해드립니다.\n\n회원님들의 많은 참여 부탁드리며\n랭킹 산정 방식은 랄라라 공식블로그를 참고바랍니다.</string>
+    
+    <string name="talk_list_empty">네트워크가 불안정하여 방 목록을 불러올 수 없습니다.</string>
+    <string name="rank_list_empty">네트워크가 불안정하여 랭킹 목록을 불러올 수 없습니다.</string>
+    
+    <!-- 알림소리 -->
+    <string-array name="alarm_sound">
+        <item>랄랄라 (신나는)</item>
+        <item>랄랄라 (섹시한)</item>
+        <item>랄랄라 (귀여운)</item>
+        <item>메세지 배달 (딩동)</item>
+        <item>메세지 배달 (휘웅)</item>
+        <item>문자왔구나</item>
+        <item>문자왔숑</item>
+        <item>문자왔슈</item>
+        <item>문자왔어요</item>
+        <item>받아요</item>
+        <item>왔구나 문자</item>
+        <item>익스큐즈 미</item>
+        <item>헤이 메세지</item>
+        <item>헬로헬로</item>
+        <item>딩동</item>
+        <item>휘웅</item>
+        <!-- 
+        <item>물방울</item>
+        <item>띠리링</item>
+        <item>뻐꾸기</item>
+        <item>전화벨</item>
+        <item>새소리</item>
+        <item>고요</item>
+        <item>종소리</item>
+        <item>또로롱</item>
+        <item>은방울</item>
+        <item>아침종소리</item>
+        <item>초인종</item>
+        <item>귀뚜라미</item>
+        <item>열쇠</item> -->
+    </string-array>
+    
+    <!-- 로고음 -->
+    <string-array name="logo_sound">
+        <item>랄라라 (기본)</item>
+        <item>랄라라 (즐거운)</item>
+        <item>랄라라 (기분좋은)</item>
+        <item>랄라라 (상쾌한)</item>
+        <item>랄라라 (신나는)</item>
+    </string-array>
+    
+    <string name="faq_title">1:1 문의하기</string>
+    <string name="faq_subject_tit">제목을 작성해 주세요.</string>
+    <string name="faq_content_tit">문의 내용을 작성해 주세요.</string>
+    <string name="faq_btn_text">문의하기</string>
+
+    <string name="setting_"></string>
+    <string name="talk_make_bg">이미지 선택</string>
+    <string name="talk_make_color">색상 선택</string>
+    <string name="talk_name_input">Talk 키워드 입력</string>
+    <string name="talk_time_set_text">Talk 유지시간 설정</string>
+    <string name="fb_auth_check">페이스북 계정에 연결되어 있습니다.</string>
+    <string name="fb_publish_check">내 활동 내역을 페이스북에 공유하기</string>
+    <string name="fb_dialog_title">페이스북으로 로그인 하기</string>
+    <string name="fb_dialog_text">페이스북과 연결을 끊으면 페이스북
+아이디로 로그인을 할 수 없게 됩니다.
+그래도 진행하시겠습니까?</string>
+    <string name="withdraw_text">탈퇴하시면 보유중인 알,골드,
+스크래치권이 모두 삭제됩니다. 
+정말 탈퇴하시겠습니까?</string>
+    <string name="withdraw_btn">회원탈퇴</string>
+    <string name="r2scratch_cnt">현재 보유중인 알 개수</string>
+    <string name="r2scratch_btn">스크래치로 변환</string>
+    <string name="money2r_cnt">현재 보유중인 골드</string>
+    <string name="money2r_btn">알로 변환</string>
+    <string name="adlist_item_text1">당첨인원 :</string>
+    <string name="adlist_item_text2">당첨가능상품수 :</string>
+    <string name="tab_1_text">광고</string>
+    <string name="tab_2_text">대화방</string>
+    <string name="tab_3_text">마이페이지</string>
+    <string name="tab_4_text">설정</string>
+    <string name="myreward_tit">나의 당첨내역 (최근 3달)</string>
+
+    <string-array name="sex">
+        <item>남자</item>
+        <item>여자</item>
+    </string-array>
+    <string-array name="email_types">
+        <item>naver.com</item>
+        <item>nate.com</item>
+        <item>daum.net</item>
+        <item>hanmail.net</item>
+        <item>hotmail.com</item>
+        <item>live.com</item>
+        <item>gmail.com</item>
+        <item>cyworld.com</item>
+        <item>lycos.co.kr</item>
+        <item>yahoo.co.kr</item>
+        <item>yahoo.com</item>
+        <item>dreamwiz.com</item>
+    </string-array>
+    <string-array name="sido_type">
+        <item>서울</item>
+        <item>인천</item>
+        <item>경기</item>
+        <item>부산</item>
+        <item>광주</item>
+        <item>대구</item>
+        <item>대전</item>
+        <item>울산</item>
+        <item>강원</item>
+        <item>경남</item>
+        <item>경북</item>
+        <item>전남</item>
+        <item>전북</item>
+        <item>제주</item>
+        <item>충남</item>
+        <item>충북</item>
+    </string-array>
+    
+    <string-array name="declare_type">
+        <item>1. 욕설 음란 비방</item>
+        <item>2. 공격적 언어</item>
+        <item>3. 미풍약속 저해</item>
+        <item>4. 기타</item>
+    </string-array>
+    
+    <string name="talk_title_input">Talk 제목을 입력해주세요</string>
+    <string name="talk_content_input">Talk 내용을 입력해주세요</string>
+
+    <string name="alert">알림</string>
+    <string name="title_ad_dialog">광고내용</string>
+    <string name="networkfail_msg">네트워크통신 중 오류가 발생하였습니다.\n다시 시도하시겠습니까?</string>
+    <string name="networkfail_msg2">네트워크통신 중 오류가 발생하였습니다.다시 시도 바랍니다.</string>
+    
+    <string name="join3_pass_notcorrect">패스워드는 6~12 자리의 영문 및 숫자로만 구성됩니다.</string>
+    <string name="join3_sex_notcorrect">성별을 선택해 주세요.</string>
+    <string name="join3_email_isempty">이메일을 입력해 주세요.</string>
+    <string name="join3_email_notcorrect">이메일 형식이 아닙니다.</string>
+    <string name="join3_nick_correct">* 사용가능 닉네임입니다.</string>
+    <string name="join3_nick_notcorrect">* 닉네임은 2~9자리 글자를 입력하실 수 있습니다.</string>
+    <string name="join3_nick_exist">* 중복된 닉네임 입니다.</string>
+    <string name="join3_sido_notcorrect">시 / 도 를 선택해주세요.</string>
+    <string name="join3_gugun_notcorrect">구 / 군 을 선택해주세요.</string>
+    <string name="join3_birthday_notcorrect">생년월일을 입력해주세요.</string>
+
+    <string name="room_singo_title">Talk방 신고하기</string>
+    <string name="room_singo_desc">부적절한 방에 대해 신고할수 있습니다.\n신고건이 5번 중복되면 방은 자동으로 차단됩니다.</string>
+    <string name="room_singo_hint">신고 사유를 적어주세요.</string>
+    <string name="room_appeal_title">신고가 접수되었습니다.</string>
+    <string name="room_appeal_desc">Talk방 이용에 부적절한 사유로 신고되었습니다.\n이에대한 이의제기를 하실 수있습니다.</string>
+    <string name="room_appeal_hint">이의제기 내용을 적어주세요.</string>
+    
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">색상 선택</string>
+    <string name="press_color_to_apply">오른쪽의 색상으로 변경됩니다.</string>
+
+    <!-- Preferences -->
+    <string name="pref_category">Category</string>
+    <string name="color1_title">Color 1</string>
+    <string name="color1_summary">black color by default, set by reference</string>
+    <string name="color2_title">Color 2</string>
+    <string name="color2_summary">not persistent color\nalpha slider added via code</string>
+    <string name="color3_title">Color 3</string>
+    <string name="color3_summary">picker with alpha slider</string>
+    <string name="color4_title">Color 4</string>
+    <string name="color4_summary">color set with HEX code in xml</string>
+    <string name="fb_appid">1410376849178369</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">확인</string>
+    <string name="com_facebook_loginview_log_out_button">로그아웃</string>
+    <string name="com_facebook_loginview_log_in_button">페이스북으로 로그인</string>
+    <string name="com_facebook_loginview_logged_in_as">해당 아이디로 로그인 되었습니다.: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">페이스북을 통한 로그인</string>
+    <string name="com_facebook_loginview_log_out_action">로그아웃</string>
+    <string name="com_facebook_loginview_cancel_action">취소</string>
+    <string name="com_facebook_logo_content_description">페이스북 로고</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">로그인&#8230;</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">로그인됨</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">로그인 안됨</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_loading">로딩...</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="dang_view_title">당첨확인</string>
+    <string name="dang_msg">랄라라 혜택 내역을 확인해주세요.\n상세내역은 마이페이지에서 확인 가능합니다.</string>
+    <string name="touch_ad_move_msg">광고를 터치하시면 위치가 바뀝니다.</string>
+    <string name="viewedad_msg">이미 시청하신 광고입니다.</string>
+
+</resources>

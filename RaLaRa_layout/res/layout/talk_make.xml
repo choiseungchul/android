@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <include layout="@layout/top_sub" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.returndays.customview.SquareImageViewMin
+                    android:id="@+id/talk_room_exview"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/talk_room_empty" />
+
+                <TextView
+                    android:id="@+id/talk_room_extext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:text="키워드"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="normal" 
+                    
+                    />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/talk_bg_setbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:background="@drawable/button_sky"
+                    android:drawableLeft="@drawable/talk_m_icon1"
+                    android:drawablePadding="10dp"
+                    android:text="@string/talk_make_bg"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/talk_color_setbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/button_gray"
+                    android:drawableLeft="@drawable/talk_m_icon2"
+                    android:drawablePadding="10dp"
+                    android:text="@string/talk_make_color"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/talk_room_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/talk_m_input"
+                android:drawablePadding="3dp"
+                android:hint="@string/talk_name_input"
+                android:maxLength="10" 
+                android:singleLine="true"/>
+
+            <Button 
+                android:id="@+id/talk_time_btn" 
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_purple"
+                android:text="@string/talk_time_set_text"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                />
+            
+            <Button 
+                android:id="@+id/talkmake_next" 
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_dark"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:text="다음"
+                android:layout_gravity="bottom"
+                />
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

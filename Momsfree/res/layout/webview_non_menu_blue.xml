@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_blue" />
+
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <com.momsfree.net.customview.MWebView
+            android:id="@+id/set_webpage_non_menu_blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true" >
+        </com.momsfree.net.customview.MWebView>
+
+        <!-- 
+        <ProgressBar
+            android:id="@+id/wn_loader_blue"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center" />
+             -->
+
+        <com.momsfree.net.customview.TextViewNanumGothic
+            android:id="@+id/webpage_network_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/webview_network_error"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

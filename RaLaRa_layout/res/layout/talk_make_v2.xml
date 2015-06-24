@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_sub" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/adlist_cont_bg"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/adlist_gugun_bar"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="6dp"
+                    android:text="타이틀 이미지 등록"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <com.returndays.customview.SquareImageViewMin
+                    android:id="@+id/talk_room_exview"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/talk_image_up_empty" />
+
+                <TextView
+                    android:id="@+id/talk_room_extext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/adlist_cont_bg"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/adlist_gugun_bar"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="6dp"
+                    android:text="내용 입력"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp" >
+
+                <EditText
+                    android:id="@+id/talk_room_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableLeft="@drawable/talk_m_input"
+                    android:drawablePadding="3dp"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/talk_name_input"
+                    android:maxLength="10"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/talk_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="left|top"
+                    android:hint="@string/talk_content_input"
+                    android:minLines="5"
+                    android:padding="6dp"
+                    android:singleLine="false"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/adlist_cont_bg"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/adlist_gugun_bar"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="6dp"
+                    android:text="Talk 유지 시간 설정 및 이미지 등록"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp" >
+
+                <Button
+                    android:id="@+id/talk_time_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button_purple"
+                    android:text="@string/talk_time_set_text"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="12dp"
+                    android:weightSum="2" >
+
+                    <FrameLayout
+                        android:id="@+id/talk_image_add_camera"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_gray"
+                        android:padding="0dp" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left|center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/icon_camera" />
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="7dp"
+                                android:gravity="center_vertical"
+                                android:singleLine="true"
+                                android:text="카메라"
+                                android:textColor="@color/white"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+
+                        <com.example.android.bitmapfun.ui.RecyclingImageView
+                            android:id="@+id/talk_image_add_camera_close"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="right|top"
+                            android:src="@drawable/close"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/talk_image_add_gallery"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_gray"
+                        android:padding="0dp" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left|center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="horizontal" >
+
+                            <com.example.android.bitmapfun.ui.RecyclingImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/icon_gallery" />
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="7dp"
+                                android:gravity="center_vertical"
+                                android:singleLine="true"
+                                android:text="이미지선택"
+                                android:textColor="@color/white"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+
+                        <com.example.android.bitmapfun.ui.RecyclingImageView
+                            android:id="@+id/talk_image_add_gallery_close"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="right|top"
+                            android:src="@drawable/close"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/button_yellow"
+                    android:orientation="horizontal"
+                    android:padding="10dp" >
+
+                    <com.example.android.bitmapfun.ui.RecyclingImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="left|top"
+                        android:src="@drawable/makefg" />
+
+                    <TextView
+                        android:id="@+id/r2scratch_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="1. Talk방 유지시간에 설정된 시간만큼 방이 유지됩니다.\n2.방 입장인원에 따라 알이 지급되던것이 중단되었습니다. \n3.불법사이트 홍보 및 미풍양속을 저해하는 컨텐츠를 등록할 경우 경고없이 방이 삭제될수 있습니다."
+                        android:textColor="@color/black" />
+                    
+                    <TextView
+                        android:id="@+id/r2scratch_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

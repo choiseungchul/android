@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" 
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="@drawable/dialog_top"
+        >
+
+        <com.momsfree.net.customview.TextViewNanumGothic
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="알림"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/text_skyblue"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/dialog_bottom">
+        
+        <com.momsfree.net.customview.TextViewNanumGothic 
+            android:id="@+id/dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            />
+        
+        <com.momsfree.net.customview.TextViewNanumGothic 
+            android:id="@+id/dialog_addr_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:textSize="16dp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/skyblue"
+            android:gravity="center"
+            android:visibility="gone"
+            android:lineSpacingExtra="2dp"
+            />
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:weightSum="2">
+            
+            <com.momsfree.net.customview.TextViewNanumGothic
+                android:id="@+id/dialog_ok" 
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:text="확인"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:background="@drawable/button_blue"/>
+            
+            <com.momsfree.net.customview.TextViewNanumGothic
+                android:id="@+id/dialog_cancel" 
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="취소"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:background="@drawable/button_gray"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

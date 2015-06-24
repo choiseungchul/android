@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/exchage_bg2">
+        
+    </item>
+
+    <item
+        android:id="@android:id/progress"
+        android:drawable="@drawable/exchage_bg3">
+        <clip >
+            <shape>
+                <corners android:radius="20dip" />
+            </shape>
+        </clip>
+    </item>
+    <item
+        android:id="@android:id/progress"
+        android:drawable="@drawable/exchage_bg3">
+        <clip>
+            <shape>
+                <corners android:radius="20dip" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

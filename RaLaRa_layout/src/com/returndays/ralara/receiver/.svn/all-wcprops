@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tocokr/!svn/ver/700/trunk/raLara_layout/src/com/returndays/ralara/receiver
+END
+GcmBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tocokr/!svn/ver/469/trunk/raLara_layout/src/com/returndays/ralara/receiver/GcmBroadcastReceiver.java
+END
+PhoneStateReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tocokr/!svn/ver/700/trunk/raLara_layout/src/com/returndays/ralara/receiver/PhoneStateReceiver.java
+END
+BootReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tocokr/!svn/ver/592/trunk/raLara_layout/src/com/returndays/ralara/receiver/BootReceiver.java
+END

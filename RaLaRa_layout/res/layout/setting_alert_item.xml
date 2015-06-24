@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_alert_item"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/setting_alert_title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textSize="18dp" 
+                android:text="타이틀"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/setting_alert_desc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="설명"
+                android:textColor="@color/purple"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/setting_alert_chk"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical|right"
+            android:button="@drawable/checkbox_custom"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            />
+    </LinearLayout>
+
+</LinearLayout>

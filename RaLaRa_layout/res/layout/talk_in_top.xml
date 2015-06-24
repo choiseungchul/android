@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top_bg"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:id="@+id/sub_back_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:paddingTop="6dp" >
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:layout_width="10dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/top_back" />
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:layout_width="85dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/room_appeal"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:visibility="gone"
+                android:src="@drawable/room_alert"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"/>
+            
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/room_singo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:visibility="gone"
+                android:src="@drawable/room_singo"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"/>
+            
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/room_delete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:visibility="gone"
+                android:src="@drawable/room_delete"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"/>
+            
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/other_room_push"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:visibility="gone"
+                android:src="@drawable/new_reply_push"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

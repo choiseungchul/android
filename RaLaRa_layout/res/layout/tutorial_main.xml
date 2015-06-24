@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#383838">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/tutorial_manual"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp" >
+        </android.support.v4.view.ViewPager>
+
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="bottom|right">
+            
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/navi_1" 
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ra_m_navi_on"/>
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/navi_2" 
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ra_m_navi_off"/>
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/navi_3" 
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ra_m_navi_off"/>
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/navi_4" 
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ra_m_navi_off"/>
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/navi_5" 
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ra_m_navi_off"/>
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/navi_6" 
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ra_m_navi_off"/>
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/navi_7" 
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ra_m_navi_off"/>
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/navi_8" 
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ra_m_navi_off"/>
+            <com.example.android.bitmapfun.ui.RecyclingImageView
+                android:id="@+id/navi_9" 
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ra_m_navi_off"/>
+            
+        </LinearLayout>
+        
+    </FrameLayout>
+
+</LinearLayout>

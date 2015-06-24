@@ -1,0 +1,755 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/res/layout
+END
+adlist_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tocokr/!svn/ver/597/trunk/raLara_layout/res/layout/adlist_top.xml
+END
+com_facebook_picker_checkbox.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_picker_checkbox.xml
+END
+custom_toast.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/270/trunk/raLara_layout/res/layout/custom_toast.xml
+END
+com_facebook_usersettingsfragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_usersettingsfragment.xml
+END
+talk_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tocokr/!svn/ver/270/trunk/raLara_layout/res/layout/talk_popup.xml
+END
+talk_make_v2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/699/trunk/raLara_layout/res/layout/talk_make_v2.xml
+END
+check_server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/478/trunk/raLara_layout/res/layout/check_server.xml
+END
+myreward.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tocokr/!svn/ver/165/trunk/raLara_layout/res/layout/myreward.xml
+END
+top_simple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tocokr/!svn/ver/683/trunk/raLara_layout/res/layout/top_simple.xml
+END
+input_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/res/layout/input_dialog.xml
+END
+check_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/203/trunk/raLara_layout/res/layout/check_dialog.xml
+END
+setting_sound.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/setting_sound.xml
+END
+version_check.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tocokr/!svn/ver/633/trunk/raLara_layout/res/layout/version_check.xml
+END
+find_password.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tocokr/!svn/ver/679/trunk/raLara_layout/res/layout/find_password.xml
+END
+find_friend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/find_friend.xml
+END
+setting_alert_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/setting_alert_item.xml
+END
+setting_web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/248/trunk/raLara_layout/res/layout/setting_web.xml
+END
+comm_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tocokr/!svn/ver/597/trunk/raLara_layout/res/layout/comm_item.xml
+END
+splash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tocokr/!svn/ver/598/trunk/raLara_layout/res/layout/splash.xml
+END
+top_recomm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tocokr/!svn/ver/596/trunk/raLara_layout/res/layout/top_recomm.xml
+END
+login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tocokr/!svn/ver/605/trunk/raLara_layout/res/layout/login.xml
+END
+top_adlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tocokr/!svn/ver/74/trunk/raLara_layout/res/layout/top_adlist.xml
+END
+load_more_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tocokr/!svn/ver/165/trunk/raLara_layout/res/layout/load_more_footer.xml
+END
+adimagetemp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/568/trunk/raLara_layout/res/layout/adimagetemp.xml
+END
+myspinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tocokr/!svn/ver/47/trunk/raLara_layout/res/layout/myspinner.xml
+END
+video_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/60/trunk/raLara_layout/res/layout/video_layout.xml
+END
+top_reward_web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/623/trunk/raLara_layout/res/layout/top_reward_web.xml
+END
+talk_time_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/134/trunk/raLara_layout/res/layout/talk_time_item.xml
+END
+mypass_change.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tocokr/!svn/ver/596/trunk/raLara_layout/res/layout/mypass_change.xml
+END
+top_sub_talk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/271/trunk/raLara_layout/res/layout/top_sub_talk.xml
+END
+com_facebook_picker_title_bar_stub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_picker_title_bar_stub.xml
+END
+myreward_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tocokr/!svn/ver/597/trunk/raLara_layout/res/layout/myreward_item.xml
+END
+tutorial_image_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tocokr/!svn/ver/598/trunk/raLara_layout/res/layout/tutorial_image_item.xml
+END
+webview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/143/trunk/raLara_layout/res/layout/webview.xml
+END
+user_type_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tocokr/!svn/ver/682/trunk/raLara_layout/res/layout/user_type_dialog.xml
+END
+r2scratch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tocokr/!svn/ver/612/trunk/raLara_layout/res/layout/r2scratch.xml
+END
+scratchadresult.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tocokr/!svn/ver/573/trunk/raLara_layout/res/layout/scratchadresult.xml
+END
+scratch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/573/trunk/raLara_layout/res/layout/scratch.xml
+END
+tutorial_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tocokr/!svn/ver/646/trunk/raLara_layout/res/layout/tutorial_main.xml
+END
+adviewsuf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tocokr/!svn/ver/156/trunk/raLara_layout/res/layout/adviewsuf.xml
+END
+ranking_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/674/trunk/raLara_layout/res/layout/ranking_item.xml
+END
+myprofile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tocokr/!svn/ver/701/trunk/raLara_layout/res/layout/myprofile.xml
+END
+tabs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tocokr/!svn/ver/596/trunk/raLara_layout/res/layout/tabs.xml
+END
+setting_soundlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tocokr/!svn/ver/673/trunk/raLara_layout/res/layout/setting_soundlist.xml
+END
+inroom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tocokr/!svn/ver/36/trunk/raLara_layout/res/layout/inroom.xml
+END
+dialog_color_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tocokr/!svn/ver/140/trunk/raLara_layout/res/layout/dialog_color_picker.xml
+END
+scratch_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/573/trunk/raLara_layout/res/layout/scratch_result.xml
+END
+user_type_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/user_type_item.xml
+END
+com_facebook_picker_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_picker_image.xml
+END
+myinfoadd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tocokr/!svn/ver/701/trunk/raLara_layout/res/layout/myinfoadd.xml
+END
+faqwrite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tocokr/!svn/ver/274/trunk/raLara_layout/res/layout/faqwrite.xml
+END
+scratch_count.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/scratch_count.xml
+END
+withdraw.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tocokr/!svn/ver/597/trunk/raLara_layout/res/layout/withdraw.xml
+END
+user_type_seekbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tocokr/!svn/ver/644/trunk/raLara_layout/res/layout/user_type_seekbar.xml
+END
+talk_room.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/res/layout/talk_room.xml
+END
+image_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/90/trunk/raLara_layout/res/layout/image_layout.xml
+END
+find_friend_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/find_friend_item.xml
+END
+count.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tocokr/!svn/ver/675/trunk/raLara_layout/res/layout/count.xml
+END
+setting_sound_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/setting_sound_item.xml
+END
+adcall_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/adcall_setting.xml
+END
+com_facebook_picker_list_section_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_picker_list_section_header.xml
+END
+recomm_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/584/trunk/raLara_layout/res/layout/recomm_item.xml
+END
+talk_in_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/597/trunk/raLara_layout/res/layout/talk_in_header.xml
+END
+ad_slide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tocokr/!svn/ver/600/trunk/raLara_layout/res/layout/ad_slide.xml
+END
+seekbar_custom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tocokr/!svn/ver/38/trunk/raLara_layout/res/layout/seekbar_custom.xml
+END
+find_email.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tocokr/!svn/ver/679/trunk/raLara_layout/res/layout/find_email.xml
+END
+com_facebook_friendpickerfragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_friendpickerfragment.xml
+END
+mypage_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/667/trunk/raLara_layout/res/layout/mypage_item.xml
+END
+talk_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/597/trunk/raLara_layout/res/layout/talk_in.xml
+END
+recomm_seekbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/469/trunk/raLara_layout/res/layout/recomm_seekbar.xml
+END
+profile_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/306/trunk/raLara_layout/res/layout/profile_dialog.xml
+END
+adcall_setting_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/adcall_setting_item.xml
+END
+talk_make.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tocokr/!svn/ver/165/trunk/raLara_layout/res/layout/talk_make.xml
+END
+setting_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/667/trunk/raLara_layout/res/layout/setting_item.xml
+END
+talk_in_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/245/trunk/raLara_layout/res/layout/talk_in_footer.xml
+END
+talk_push_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tocokr/!svn/ver/597/trunk/raLara_layout/res/layout/talk_push_list_item.xml
+END
+scratch_count_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/scratch_count_item.xml
+END
+toast_viewer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/79/trunk/raLara_layout/res/layout/toast_viewer.xml
+END
+adviewmobileweb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tocokr/!svn/ver/143/trunk/raLara_layout/res/layout/adviewmobileweb.xml
+END
+com_facebook_placepickerfragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_placepickerfragment.xml
+END
+fragment_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/126/trunk/raLara_layout/res/layout/fragment_image.xml
+END
+talk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tocokr/!svn/ver/703/trunk/raLara_layout/res/layout/talk.xml
+END
+setting_alert.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/setting_alert.xml
+END
+talk_in_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/710/trunk/raLara_layout/res/layout/talk_in_top.xml
+END
+com_facebook_placepickerfragment_list_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_placepickerfragment_list_row.xml
+END
+menu_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/86/trunk/raLara_layout/res/layout/menu_fragment.xml
+END
+talk_make2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tocokr/!svn/ver/560/trunk/raLara_layout/res/layout/talk_make2.xml
+END
+ranking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/703/trunk/raLara_layout/res/layout/ranking.xml
+END
+image_zoom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tocokr/!svn/ver/219/trunk/raLara_layout/res/layout/image_zoom.xml
+END
+scratch_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/332/trunk/raLara_layout/res/layout/scratch_test.xml
+END
+tutorial_main_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tocokr/!svn/ver/612/trunk/raLara_layout/res/layout/tutorial_main_item.xml
+END
+mypage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tocokr/!svn/ver/667/trunk/raLara_layout/res/layout/mypage.xml
+END
+movie_activity_callend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tocokr/!svn/ver/60/trunk/raLara_layout/res/layout/movie_activity_callend.xml
+END
+callend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/619/trunk/raLara_layout/res/layout/callend.xml
+END
+adimageview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/556/trunk/raLara_layout/res/layout/adimageview.xml
+END
+movie_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tocokr/!svn/ver/60/trunk/raLara_layout/res/layout/movie_activity.xml
+END
+recomm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tocokr/!svn/ver/596/trunk/raLara_layout/res/layout/recomm.xml
+END
+money2r.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/612/trunk/raLara_layout/res/layout/money2r.xml
+END
+ad_alert.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tocokr/!svn/ver/356/trunk/raLara_layout/res/layout/ad_alert.xml
+END
+adlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/adlist.xml
+END
+scratch_fail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tocokr/!svn/ver/378/trunk/raLara_layout/res/layout/scratch_fail.xml
+END
+top_basic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tocokr/!svn/ver/136/trunk/raLara_layout/res/layout/top_basic.xml
+END
+com_facebook_picker_activity_circle_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_picker_activity_circle_row.xml
+END
+present_egg_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tocokr/!svn/ver/603/trunk/raLara_layout/res/layout/present_egg_dialog.xml
+END
+seekbar_exchange.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tocokr/!svn/ver/260/trunk/raLara_layout/res/layout/seekbar_exchange.xml
+END
+join1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tocokr/!svn/ver/605/trunk/raLara_layout/res/layout/join1.xml
+END
+dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tocokr/!svn/ver/270/trunk/raLara_layout/res/layout/dialog.xml
+END
+join2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tocokr/!svn/ver/605/trunk/raLara_layout/res/layout/join2.xml
+END
+find_user_faq_write.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tocokr/!svn/ver/679/trunk/raLara_layout/res/layout/find_user_faq_write.xml
+END
+tutorial_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tocokr/!svn/ver/615/trunk/raLara_layout/res/layout/tutorial_dialog.xml
+END
+makeroom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/44/trunk/raLara_layout/res/layout/makeroom.xml
+END
+com_facebook_login_activity_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_login_activity_layout.xml
+END
+join3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tocokr/!svn/ver/605/trunk/raLara_layout/res/layout/join3.xml
+END
+setting_web_reward.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tocokr/!svn/ver/615/trunk/raLara_layout/res/layout/setting_web_reward.xml
+END
+com_facebook_picker_search_box.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_picker_search_box.xml
+END
+fb_auth.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tocokr/!svn/ver/36/trunk/raLara_layout/res/layout/fb_auth.xml
+END
+fbtest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tocokr/!svn/ver/57/trunk/raLara_layout/res/layout/fbtest.xml
+END
+com_facebook_picker_list_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_picker_list_row.xml
+END
+talk_push_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tocokr/!svn/ver/597/trunk/raLara_layout/res/layout/talk_push_list.xml
+END
+setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/667/trunk/raLara_layout/res/layout/setting.xml
+END
+adlist_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tocokr/!svn/ver/668/trunk/raLara_layout/res/layout/adlist_item.xml
+END
+top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/tocokr/!svn/ver/318/trunk/raLara_layout/res/layout/top.xml
+END
+top_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tocokr/!svn/ver/596/trunk/raLara_layout/res/layout/top_sub.xml
+END
+top_rank.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tocokr/!svn/ver/597/trunk/raLara_layout/res/layout/top_rank.xml
+END
+com_facebook_picker_title_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tocokr/!svn/ver/51/trunk/raLara_layout/res/layout/com_facebook_picker_title_bar.xml
+END

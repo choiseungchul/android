@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="tab_on_text">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/purple_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="tab_off_text">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/gray_4</item>
+    </style>
+    
+    <style name="ad_tab">
+        <item name="android:textSize">16dp</item>
+        <item name="android:background">@color/dark_gray</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="lockv_ad_earn_bar">
+        <item name="android:textColor">@color/purple</item>
+        <item name="android:background">@color/yellow</item>
+        <item name="android:height">25dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="mypage_list_div">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/gray_1</item>
+        <item name="android:height">25dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    
+    <style name="app_title_bar">
+        <item name="android:textSize">18dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/title_bar</item>
+    </style>
+    
+    <style name="app_btns_type1">
+        <item name="android:textSize">17dp</item>
+        <item name="android:background">@color/purple</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    
+    <style name="app_btns_type2">
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@color/orange</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    
+    <style name="app_btns_type3">
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@color/blue</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    
+      <style name="app_btns_type4">
+        <item name="android:textSize">17dp</item>
+        <item name="android:background">@color/purple</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    
+    <style name="font_black_small">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="font_black_normal">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="font_black_big_bold">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_red_big_bold">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#cb2817</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_black_btn">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_white_btn">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="font_white_small">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    
+    <style name="list_title_big">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    
+    <style name="list_title_samll">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    
+    <style name="list_sub_title">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+    
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <color name="com_facebook_blue">#3B5998</color>
+    
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
+    
+    <dimen name="com_facebook_loginview_padding_left">42dp</dimen>
+    <dimen name="com_facebook_loginview_padding_right">0dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">0dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">0dp</dimen>
+    <dimen name="com_facebook_loginview_width">205dp</dimen>
+    <dimen name="com_facebook_loginview_height">44dp</dimen>
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:width">@dimen/com_facebook_loginview_width</item>
+        <item name="android:height">@dimen/com_facebook_loginview_height</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    
+</resources>

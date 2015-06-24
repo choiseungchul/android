@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:weightSum="100"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+		    <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_weight="50"
+		        android:layout_height="40dp"
+		        android:orientation="horizontal"
+		        style="@style/app_btns_type1"
+		        android:gravity="left">
+		        
+		        <TextView
+		            android:id="@+id/ad_title"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/app_nm" 
+		            android:layout_marginLeft="6dp"
+					android:textColor="@color/white"
+		            />
+		        
+		    </LinearLayout>
+	    
+		    <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_weight="50"
+		        android:layout_height="40dp"
+		        android:orientation="horizontal"
+		        style="@style/app_btns_type1"
+		        android:gravity="right">
+		
+		        <ImageButton
+		            android:id="@+id/imageButton1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/srch_icon" />
+		        
+		        <ImageButton
+		            android:id="@+id/imageButton2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/menu_icon" />
+		        
+		    </LinearLayout>
+    
+    	</LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:weightSum="100"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:background="@color/purple">
+		    
+		    <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_weight="50"
+		        android:layout_height="40dp"
+		        android:orientation="horizontal"
+		        android:gravity="left"
+		        android:background="@color/white">
+
+		        <TextView
+		            android:id="@+id/textView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="#나이키" 
+		            android:textColor="@color/purple"
+		            android:padding="10sp"
+		            android:textSize="20sp"/>
+		        
+		    </LinearLayout>
+	    
+		    <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_weight="50"
+		        android:layout_height="40dp"
+		        android:orientation="vertical"
+		        android:gravity="right"
+		        android:background="@color/white">
+
+		        <TextView
+		            android:id="@+id/textView2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="30분 22초" 
+		            android:textColor="@color/gray_1"
+		            android:paddingTop="0sp"
+		            android:paddingRight="5sp"/>
+
+		        <ToggleButton
+		            android:id="@+id/toggleButton1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="ToggleButton" />
+		        
+		    </LinearLayout>
+    
+    	</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:weightSum="9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_weight="8">
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+                
+                <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="183dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10" >
+                    <requestFocus />
+                </EditText>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전송" />
+                
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+</LinearLayout>

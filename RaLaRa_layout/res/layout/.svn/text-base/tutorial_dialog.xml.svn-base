@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="60dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:background="@drawable/tutorial_dialog_back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <com.returndays.customview.TextViewNanumGothic
+            android:id="@+id/tuto_title"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/tuto_title"
+            android:textColor="@color/purple_text"
+            android:textSize="18dp" />
+
+        <com.example.android.bitmapfun.ui.RecyclingImageView
+            android:id="@+id/tutorial_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|top"
+            android:src="@drawable/tutorial_close" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/tutorial_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp" >
+        </android.support.v4.view.ViewPager>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.example.android.bitmapfun.ui.RecyclingImageView
+            android:id="@+id/go_1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/page_dot_over"
+            android:clickable="true">
+        </com.example.android.bitmapfun.ui.RecyclingImageView>
+
+        <com.example.android.bitmapfun.ui.RecyclingImageView
+            android:id="@+id/go_2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/page_dot"
+            android:clickable="true" >
+        </com.example.android.bitmapfun.ui.RecyclingImageView>
+
+        <com.example.android.bitmapfun.ui.RecyclingImageView
+            android:id="@+id/go_3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/page_dot"
+            android:clickable="true" >
+        </com.example.android.bitmapfun.ui.RecyclingImageView>
+
+        <com.example.android.bitmapfun.ui.RecyclingImageView
+            android:id="@+id/go_4"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/page_dot"
+            android:clickable="true" >
+        </com.example.android.bitmapfun.ui.RecyclingImageView>
+
+        <com.example.android.bitmapfun.ui.RecyclingImageView
+            android:id="@+id/go_5"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/page_dot"
+            android:clickable="true">
+        </com.example.android.bitmapfun.ui.RecyclingImageView>
+    </LinearLayout>
+
+    <!-- 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:gravity="top"
+        android:layout_gravity="bottom" >
+
+        <CheckBox
+            android:id="@+id/view_later"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:button="@drawable/checkbox_custom"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/black"/>
+        
+        <com.returndays.customview.TextViewNanumGothic
+            android:id="@+id/view_later_text" 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tuto_view_later"
+            android:textColor="@color/purple_text"
+            android:textSize="16dp"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+ -->
+</LinearLayout>

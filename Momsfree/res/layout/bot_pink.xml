@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:weightSum="4" >
+
+    <LinearLayout
+        android:id="@+id/menu1_btn_pink"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/btn_pink" >
+
+        <ImageView
+            android:id="@+id/switch_mom_sitter_pink"
+            android:layout_width="50dp"
+            android:layout_height="41dp"
+            android:src="@drawable/menu5_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu2_btn_pink"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/btn_pink" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="42dp"
+            android:src="@drawable/menu2_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu3_btn_pink"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/btn_pink" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="43dp"
+            android:src="@drawable/menu3_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu4_btn_pink"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/btn_pink" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:src="@drawable/menu4_icon" />
+    </LinearLayout>
+
+</LinearLayout>

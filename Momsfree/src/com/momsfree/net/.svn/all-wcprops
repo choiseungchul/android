@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/net
+END
+BaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tocokr/!svn/ver/439/trunk/momsfree/src/com/momsfree/net/BaseActivity.java
+END
+SettingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tocokr/!svn/ver/716/trunk/momsfree/src/com/momsfree/net/SettingActivity.java
+END
+WebActivityNonMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tocokr/!svn/ver/639/trunk/momsfree/src/com/momsfree/net/WebActivityNonMenu.java
+END
+LoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tocokr/!svn/ver/659/trunk/momsfree/src/com/momsfree/net/LoginActivity.java
+END
+SplashActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tocokr/!svn/ver/639/trunk/momsfree/src/com/momsfree/net/SplashActivity.java
+END
+UserSelectActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tocokr/!svn/ver/639/trunk/momsfree/src/com/momsfree/net/UserSelectActivity.java
+END
+WebActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tocokr/!svn/ver/659/trunk/momsfree/src/com/momsfree/net/WebActivity.java
+END
+JoinCompleteActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tocokr/!svn/ver/639/trunk/momsfree/src/com/momsfree/net/JoinCompleteActivity.java
+END

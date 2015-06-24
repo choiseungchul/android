@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center_vertical|center_horizontal"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_top"
+        android:orientation="vertical" >
+
+        <com.returndays.customview.TextViewNanumGothic
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="광고 모드 설정"
+            android:textColor="#6f2282"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <com.returndays.customview.TextViewNanumGothic
+            android:id="@+id/dialog_descr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="10dp"
+            android:singleLine="false"
+            android:text="랄라라는 광고 플랫폼입니다. \n회원님의 핸드폰 이용에 불편함이 발생할 수 있습니다. \n하지만 사용자모드에 따라 편리하게 사용하실 수 있습니다.\n아래의 모드를 설정해주세요."
+            android:textColor="#414141"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/purple_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_bottom"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/user_type_list"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:cacheColorHint="#00000000"
+            android:divider="#cfcfcf"
+            android:dividerHeight="0.5dp"
+            android:listSelector="@drawable/list_selector"
+            android:scrollbars="none" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/purple_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <com.returndays.customview.TextViewNanumGothic
+                android:id="@+id/dialog_ok"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_type_purple"
+                android:gravity="center"
+                android:text="확인"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <com.returndays.customview.TextViewNanumGothic
+                android:id="@+id/dialog_cancel"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_type_dark"
+                android:gravity="center"
+                android:text="취소"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

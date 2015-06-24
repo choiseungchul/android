@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="match_parent"
+  	android:layout_height="match_parent"
+  	android:orientation="vertical"
+  	android:background="@color/white"
+  	>
+
+    <LinearLayout 
+       android:id="@+id/momsfree_banner"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+        <com.momsfree.net.customview.MWebView
+            android:id="@+id/banner_view" 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/btn_select_moms_big" 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/main_mom"
+        android:orientation="vertical">
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:id="@+id/btn_select_baby_sitter_big"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/main_babysitter"
+        android:orientation="vertical"
+        android:gravity="bottom">
+        
+        <com.momsfree.net.customview.TextViewNanumGothic 
+            android:layout_width="match_parent"
+            android:layout_height="16dp"            
+            android:gravity="center"
+            android:background="#21010101"
+            android:text="@string/busi_number"
+            android:textColor="@color/white"
+            android:textSize="8dp"/>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

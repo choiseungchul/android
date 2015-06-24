@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_pink_ptrn">
+    
+    <ImageButton 
+        android:id="@+id/home_btn_pink"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/home_btn_pink"
+        android:layout_marginRight="20dp"/>
+
+    <com.momsfree.net.customview.TextViewNanumGothic
+        android:id="@+id/top_title_pink"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text=""
+        />
+    
+    <ImageButton 
+        android:id="@+id/loc_btn_pink"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="15dp"   
+        android:background="@drawable/loc_btn_pink"/>
+    
+</LinearLayout>

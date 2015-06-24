@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    
+	<include layout="@layout/top_sub"/>
+	
+	<ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ebebeb"
+	    android:padding="10dp">
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/talk_content"
+	        android:orientation="vertical"
+	        android:padding="10dp" >
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:background="@color/white"
+	            android:gravity="top"
+	            android:orientation="horizontal" >
+
+	            <com.returndays.customview.SquareImageView
+	                android:id="@+id/talker_image"
+	                android:layout_width="40dp"
+	                android:layout_height="40dp"
+	                 />
+
+	            <LinearLayout
+	                android:layout_width="60dp"
+	                android:layout_height="40dp"
+	                android:orientation="vertical" >
+
+	                <TextView
+	                    android:id="@+id/talker_id"
+	                    android:layout_width="60dp"
+	                    android:layout_height="20dp"
+	                    android:gravity="center"
+	                    android:text="로딩중"
+	                    android:textColor="@color/black"
+	                    android:textSize="10dp" />
+
+	                <TextView
+	                    android:id="@+id/talk_starttime"
+	                    android:layout_width="60dp"
+	                    android:layout_height="20dp"
+	                    android:gravity="center"
+	                    android:text="로딩중"
+	                    android:textColor="@color/gray_3"
+	                    android:textSize="10dp" />
+	            </LinearLayout>
+
+	        </LinearLayout>
+
+	        <EditText
+	            android:id="@+id/talk_content"
+	            android:layout_width="match_parent"
+	            android:layout_height="100dp"
+	            android:background="@drawable/talk_title_input"
+	            android:gravity="left|top"
+	            android:hint="@string/talk_content_input"
+	            android:minLines="5"
+	            android:padding="6dp"
+	            android:singleLine="false"
+	            android:textSize="14dp" />
+		
+	        <com.returndays.customview.FixWidthImageView
+	            android:id="@+id/talk_room_img"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10dp"
+	            android:src="@drawable/talk_room_empty" />
+	    </LinearLayout>
+	    
+	</ScrollView>
+    
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_blue" />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/bg_white_ptrn"
+        >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <com.momsfree.net.customview.TextViewNanumGothic 
+                android:id="@+id/setting_btn_notice"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="13dp"
+                android:gravity="center"
+                android:text="@string/setting_menu_1"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:background="@drawable/button_onoff_blue"/>
+            
+            <com.momsfree.net.customview.TextViewNanumGothic 
+                android:id="@+id/setting_btn_shop"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="13dp"
+                android:gravity="center"
+                android:text="@string/setting_menu_2"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:background="@drawable/button_onoff_blue"/>
+            
+            <com.momsfree.net.customview.TextViewNanumGothic 
+                android:id="@+id/setting_btn_faq"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="13dp"
+                android:gravity="center"
+                android:text="@string/setting_menu_3"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:background="@drawable/button_onoff_blue"/>
+            
+            <com.momsfree.net.customview.TextViewNanumGothic 
+                android:id="@+id/setting_btn_location"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="13dp"
+                android:gravity="center"
+                android:text="@string/setting_menu_4"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:background="@drawable/button_onoff_blue"/>
+            
+            <com.momsfree.net.customview.TextViewNanumGothic 
+                android:id="@+id/setting_btn_agreement"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="13dp"
+                android:gravity="center"
+                android:text="@string/setting_menu_6"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:background="@drawable/button_onoff_blue"/>
+            
+            <LinearLayout 
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_white"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                
+                <com.momsfree.net.customview.TextViewNanumGothic 
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:text="@string/setting_menu_5"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="12dp"
+                    />
+                
+                <CheckBox 
+                    android:id="@+id/setting_btn_pushalarm"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:checked="true"/>
+                
+            </LinearLayout>
+            
+            <com.momsfree.net.customview.TextViewNanumGothic
+                android:layout_marginTop="10dp" 
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:textColor="#666666"
+                android:text="@string/setting_alert_desc"
+                android:singleLine="false"
+                android:lines="2"
+                android:lineSpacingExtra="2dp"/>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <include layout="@layout/bot_blue" />
+    
+</LinearLayout>

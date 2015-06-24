@@ -1,0 +1,64 @@
+10
+
+dir
+716
+https://dev.naver.com/svn/tocokr/trunk/momsfree/res
+https://dev.naver.com/svn/tocokr
+
+
+
+2014-01-29T12:45:46.556533Z
+716
+laputa31
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1fb0916d-8e59-4941-883b-753ee53fd641
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+drawable-xxhdpi
+dir
+
+layout
+dir
+
+menu
+dir
+
+values
+dir
+
+values-sw600dp
+dir
+
+values-sw720dp-land
+dir
+
+values-v11
+dir
+
+values-v14
+dir
+

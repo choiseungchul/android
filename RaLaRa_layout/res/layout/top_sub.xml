@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top_bg"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:id="@+id/sub_back_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal" >
+
+            <com.example.android.bitmapfun.ui.RecyclingImageView 
+                android:layout_width="10dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="6dp"
+                android:src="@drawable/top_back"
+                />
+            
+            <com.returndays.customview.TextViewNanumGothic
+                android:text="@string/app_nm"
+                android:id="@+id/top_sub_title_text_sub"
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:gravity="center_vertical|right"
+            android:orientation="vertical"
+            >
+            <Button
+                    android:id="@+id/save_btn"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/button_yellow"
+                    android:text="저장하기"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold"
+                    />
+          
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

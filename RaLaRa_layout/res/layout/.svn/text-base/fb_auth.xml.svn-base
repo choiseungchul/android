@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:weightSum="100"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+    
+		    <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_weight="50"
+		        android:layout_height="40dp"
+		        android:orientation="horizontal"
+		        style="@style/app_btns_type1"
+		        android:gravity="left">
+		        
+		        <TextView
+		            android:id="@+id/ad_title"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/app_nm" 
+		            android:layout_marginLeft="6dp"
+					android:textColor="@color/white"
+		            />
+		        
+		    </LinearLayout>
+	    
+		    <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_weight="50"
+		        android:layout_height="40dp"
+		        android:orientation="horizontal"
+		        style="@style/app_btns_type1"
+		        android:gravity="right">
+		
+		        <ImageButton
+		            android:id="@+id/imageButton1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/srch_icon" />
+		        
+		        <ImageButton
+		            android:id="@+id/imageButton2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/menu_icon" />
+		        
+		    </LinearLayout>
+    
+    	</LinearLayout>
+
+    	<!-- 탭 메뉴 -->
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:weightSum="10"
+	            android:orientation="horizontal"
+	            android:background="@color/gray_1" >
+		        
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="2.5"
+	            android:orientation="horizontal" >
+	                <Button 
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:text="@string/ad_tab_01"
+	                    style="@style/ad_tab"/>
+	            </LinearLayout>
+		           
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	             android:layout_weight="2.5"
+	            android:orientation="horizontal" >
+	            	<Button 
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:text="@string/ad_tab_02"
+	                    style="@style/ad_tab"/>
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	             android:layout_weight="2.5"
+	            android:orientation="horizontal" >
+	            	<Button 
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:text="@string/ad_tab_03"
+	                    style="@style/ad_tab"/>
+	            </LinearLayout>
+	            
+	            <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:layout_weight="2.5"
+		            android:orientation="horizontal" >
+		            	<Button 
+		                    android:layout_width="match_parent"
+		                    android:layout_height="match_parent"
+		                    android:text="@string/ad_tab_04"
+		                    style="@style/ad_tab"/>
+	            </LinearLayout>
+		        
+	        </LinearLayout>
+	    </LinearLayout>
+
+	    <!-- 메뉴 1번 -->
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="51sp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:background="@color/black">
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:background="@color/white"
+                android:padding="15sp" 
+                android:layout_weight="7">
+
+                <TextView 
+                    android:id="@+id/mypage_menu_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/fb_auth_check"
+                    android:textSize="18sp"/>
+                
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:background="@color/white"
+                android:layout_weight="3">
+                <CheckBox 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginTop="5sp"
+                    />
+            </LinearLayout>
+            
+        </LinearLayout>
+        <!-- 메뉴 1번 끝 -->
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="51sp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:background="@color/black">
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:background="@color/white"
+                android:padding="15sp" 
+                android:layout_weight="7">
+
+                <TextView 
+                    android:id="@+id/mypage_menu_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/fb_publish_check"
+                    android:textSize="18sp"/>
+                
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:background="@color/white"
+                android:layout_weight="3">
+                <CheckBox 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginTop="5sp"
+                    />
+            </LinearLayout>
+            
+        </LinearLayout>
+	    
+</LinearLayout>
